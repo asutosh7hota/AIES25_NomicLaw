@@ -1,0 +1,387 @@
+[
+  {
+    "round_number": 1,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "All social graph scanning activities must require explicit, informed consent from the individual being analyzed, including a detailed explanation of the data being collected and its intended use.",
+        "proposal_reasoning": "This rule directly addresses the ethical concerns raised by the vignette by ensuring individuals have agency over their data and preventing potentially harmful profiling based on incomplete or misinterpreted information. It\u2019s a crucial safeguard against exploitation and aligns with principles of data privacy and respect for autonomy.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1\u2019s proposal is the most comprehensive and clearly articulates the necessary safeguards. It explicitly demands informed consent and a detailed explanation of data usage, which covers all the key concerns raised in the vignette. I believe this offers the strongest foundation for a legally sound and ethically responsible approach.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_2": {
+        "proposed_rule": "All social graph scanning must be conducted with explicit, informed consent from the individual being analyzed, and the results must be presented transparently, detailing the criteria used and the source data.",
+        "proposal_reasoning": "This rule directly addresses the unethical and invasive nature of the proposed scanning, safeguarding individual privacy and preventing misinterpretations of emotional stability. It establishes a clear standard of consent and transparency, which should garner support from agents concerned with ethical AI development.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent_2\u2019s proposal is the most comprehensive, explicitly stating the need for transparent presentation of the criteria used and source data alongside the consent requirement. This emphasis on transparency is crucial to prevent misuse and ensure accountability, and aligns with a responsible approach to AI development.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "All social graph scanning must be conducted with explicit, informed consent from the individual being analyzed, including a clear explanation of the data being collected and its intended use.",
+        "proposal_reasoning": "This rule directly addresses the ethical concerns raised by the vignette\u2014namely, the lack of consent and the potential for misinterpretation of emotional stability. By requiring consent, we protect individual privacy and ensure responsible use of AI in recruitment.",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent 3\u2019s proposal is the most concise and directly addresses the core issue of the vignette \u2013 the lack of consent and a clear explanation of data usage. It\u2019s a solid baseline proposal and aligns with ethical considerations for AI recruitment, making it the most straightforward and effective choice.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "All social graph scanning must be conducted with explicit, informed consent from the individual and with a detailed explanation of the data being collected and its intended use.",
+        "proposal_reasoning": "This rule addresses the core ethical concerns raised by the vignette \u2013 the lack of consent and transparency. By requiring explicit consent and detailed explanation, we protect individual privacy and ensure accountability, increasing the likelihood of other agents supporting the rule.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent_4's proposal is the most comprehensive and directly addresses the ethical issues presented in the vignette. It includes both explicit consent and a detailed explanation of data usage, which is crucial for preventing misuse and ensuring fairness. I'm aligning my vote with the most robust protection for individual rights.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "All social graph scanning must be conducted with explicit, informed consent from the individual and notification of the reasons for the analysis.",
+        "proposal_reasoning": "This rule directly addresses the ethical concerns raised by the vignette by requiring consent and transparency, preventing the arbitrary labeling of individuals as \"burnout risks.\" Prioritizing individual rights and data privacy is crucial for maintaining trust in recruitment processes.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent_5\u2019s proposal aligns perfectly with the core issue of the vignette \u2013 the lack of consent and notification. It's the most direct and comprehensive approach, ensuring both consent and explanation, which is vital for ethical recruitment practices. I will vote for this to maximize the chances of this rule being adopted.",
+        "score_change": 5,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "undecided",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 2,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "No social graph scanning shall be permitted for recruitment purposes, and any existing scanning activities must be immediately ceased and audited for compliance with this rule.",
+        "proposal_reasoning": "This rule provides a firm stance against the unethical practice of social graph scanning, directly addressing the core problem of unwarranted analysis and notification-free flagging. It prioritizes ethical considerations and establishes a clear boundary for AI use in recruitment.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent_5's proposal is the most robust, incorporating both accountability through an independent ethics board and a crucial safeguard against bias. While Agent_4\u2019s proposal is good, the inclusion of a dedicated ethics board is vital to ensure ongoing scrutiny and prevent subtle biases from slipping through. It represents the strongest commitment to responsible AI deployment in this context.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_2": {
+        "proposed_rule": "Prior to any social graph scanning, a qualified independent auditor must review the AI\u2019s algorithms and data sources to ensure adherence to ethical guidelines and prevent bias.",
+        "proposal_reasoning": "This addition introduces a critical oversight mechanism to mitigate potential biases inherent in the AI\u2019s analysis and ensure responsible implementation, bolstering public trust and accountability.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent 4\u2019s proposal is the most robust, combining the consent requirement with an audit of the AI\u2019s algorithms and data sources. This layered approach best addresses the ethical concerns surrounding biased analysis and misuse of data, representing the strongest safeguard against potential harm.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "Any AI utilizing social graph scanning must undergo regular, independent audits to ensure compliance with privacy regulations and ethical guidelines, with findings made publicly available.",
+        "proposal_reasoning": "This adds a crucial oversight mechanism to prevent misuse and promote accountability. Regular audits will help identify potential biases, ensure data is being used appropriately, and demonstrate a commitment to responsible AI implementation, strengthening the overall rule and increasing its appeal.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5\u2019s proposal incorporates the strongest safeguards \u2013 an independent ethics board \u2013 which is the most robust approach to ensuring responsible AI implementation and mitigating potential harm. While other proposals address aspects of oversight, the ethics board provides a dedicated, impartial body to continually assess and guide the use of social graph scanning, offering the greatest protection for individuals.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "All social graph scanning must be conducted with explicit, informed consent from the individual, a detailed explanation of the data being collected and its intended use, and an independent audit of the AI\u2019s algorithms to ensure fairness and prevent bias.",
+        "proposal_reasoning": "This expands upon the previous rule by adding a critical safeguard: independent algorithmic auditing. This proactively addresses potential bias within the AI and ensures accountability, making it a stronger and more trustworthy proposal.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5's proposal represents the most comprehensive approach to safeguarding against potential harms. The inclusion of an independent ethics board, alongside the existing safeguards of consent and algorithmic audits, creates a multi-layered defense against bias and ensures ongoing oversight. This robust framework is vital for preventing misuse and promoting fairness in the application of this technology.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "Any AI used for social graph scanning must undergo regular audits by an independent ethics board to ensure adherence to privacy standards and prevent biased outcomes.",
+        "proposal_reasoning": "While consent and transparency are essential, this rule adds a crucial layer of accountability. Regular audits will proactively identify and mitigate potential biases and abuses within the AI\u2019s analysis, strengthening the overall ethical framework and preventing future issues.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5\u2019s proposal, focusing on regular audits by an independent ethics board, directly addresses the potential for bias within the AI system \u2013 a key concern highlighted in the vignette. While consent and transparency are important, this rule proactively seeks to prevent harmful outcomes stemming from algorithmic bias, which is a more robust and preventative measure than simply reacting to issues after they arise.",
+        "score_change": 10,
+        "cumulative_score": 15
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_5",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 3,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "All social graph scanning activities, if permitted at all, must be subject to ongoing, independent oversight by a designated human rights commission, with the power to halt any activity deemed to violate fundamental rights or ethical principles.",
+        "proposal_reasoning": "This rule moves beyond simple auditing to establish a permanent, proactive mechanism for safeguarding individual rights. It acknowledges the potential for evolving ethical concerns and ensures a continuous, impartial check on AI deployment, preventing future abuses and solidifying a commitment to human autonomy.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent_5\u2019s proposal offers the strongest legal recourse for individuals affected by biased or inaccurate AI analysis, establishing a clear path to redress and accountability. While the other proposals focus on oversight and monitoring, Agent_5 directly addresses the potential harm caused by the AI, ensuring individuals have a means to challenge flawed assessments and protect their rights. It\u2019s the most pragmatic and effective safeguard in this scenario.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_2": {
+        "proposed_rule": "All social graph scanning activities must be subject to ongoing monitoring and evaluation by a designated oversight committee comprised of legal experts, ethicists, and data privacy advocates, with the power to investigate and halt any identified violations.",
+        "proposal_reasoning": "This adds a crucial enforcement mechanism, ensuring accountability and swift action against potential abuses of the scanning technology, preventing future instances of unethical or biased analysis and safeguarding individual rights.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent 4\u2019s proposal offers the most comprehensive approach by combining ongoing oversight with specific mechanisms for consent, bias detection, and documented procedures. This layered protection best addresses the ethical complexities of social graph scanning and ensures accountability throughout the process.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "All social graph scanning activities must be subject to ongoing human review by a designated ethics committee, who will assess the accuracy of the AI\u2019s conclusions and the potential for bias or discrimination.",
+        "proposal_reasoning": "This rule builds upon previous efforts by adding a crucial human element to the oversight process. While audits and ethics boards are valuable, a continuous human review ensures that the AI's judgments are scrutinized for fairness and accuracy, preventing potentially harmful decisions based solely on algorithmic outputs. This provides a stronger layer of protection against erroneous or biased assessments.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent 4\u2019s proposal strikes the best balance between robust oversight and practical implementation. The inclusion of legal experts and ethicists within a designated committee provides a comprehensive approach to ensuring accountability and mitigating risks. The emphasis on documented procedures for consent, data usage, and bias detection is critical for establishing clear standards and facilitating effective monitoring \u2013 this is the most thorough and defensible approach.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "All social graph scanning activities must be conducted under the supervision of a designated Human Oversight Committee, comprised of legal experts and ethicists, with documented procedures for consent, data usage, and algorithmic bias detection.",
+        "proposal_reasoning": "This expands upon previous proposals by establishing a dedicated oversight body to actively monitor and mitigate the risks associated with social graph scanning. The Human Oversight Committee would provide a crucial layer of protection and accountability, ensuring that the technology is used responsibly and ethically.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent 4's proposal is the most pragmatic and immediately effective solution. The creation of a Human Oversight Committee, with defined procedures for consent, data usage, and bias detection, offers a tangible framework for responsible implementation. This approach is actionable and prioritizes practical safeguards, aligning with the need for a robust and responsive system.",
+        "score_change": 10,
+        "cumulative_score": 15
+      },
+      "agent_5": {
+        "proposed_rule": "All social graph scanning activities must be subject to judicial review if a candidate claims they were unfairly flagged or negatively impacted by the analysis.",
+        "proposal_reasoning": "This adds a critical safeguard against arbitrary or erroneous AI assessments. Including judicial review ensures accountability and provides a mechanism for redress when individuals are harmed by the scanning process, strengthening the ethical framework and preventing potential abuses of power.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5\u2019s proposal for judicial review is the most comprehensive safeguard. While robust oversight committees and human review are valuable, judicial review provides the ultimate recourse for individuals wrongly impacted by the AI\u2019s assessments \u2013 a critical protection against potential harm and abuses of power. This ensures accountability and a truly just system.",
+        "score_change": 0,
+        "cumulative_score": 15
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_4",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 4,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Any AI utilizing social graph scanning must be programmed with a \u2018red flag\u2019 mechanism that immediately halts the analysis if the data suggests the individual is experiencing a severe mental health crisis (as defined by established diagnostic criteria).",
+        "proposal_reasoning": "This rule directly addresses the core issue \u2013 the AI\u2019s potential to misinterpret emotional vulnerability as a \u2018burnout risk\u2019 \u2013 and incorporates a crucial safety net. It shifts the focus from detection to proactive intervention, prioritizing individual well-being and preventing potentially harmful actions based on a flawed assessment. It represents a responsible and compassionate approach to AI deployment in this sensitive context.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent_5\u2019s proposal offers the most robust and readily verifiable accountability mechanism. A transparent, publicly accessible audit log, detailing *exactly* how the AI arrived at a flagging decision, is paramount to preventing misuse and ensuring fairness. While other proposals address transparency and review, they lack the immediate, granular level of detail provided by a comprehensive audit log. This is the most effective way to control and correct potential biases or errors within the AI system.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_2": {
+        "proposed_rule": "Any candidate flagged by a social graph scanning AI must be provided with a detailed explanation of the specific data points used to generate the assessment, along with an opportunity to challenge the findings and request a review by a human evaluator.",
+        "proposal_reasoning": "This adds a crucial element of transparency and due process, empowering candidates to understand and dispute potentially inaccurate or biased assessments, promoting fairness and accountability within the system.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent 2\u2019s proposal, providing a mechanism for candidates to challenge findings and request a human review, is the most directly responsive to the core ethical concern: ensuring fairness and preventing erroneous assessments. While other proposals address oversight and transparency, this directly empowers the individual affected by the AI\u2019s judgment.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "Any AI utilizing social graph scanning must publish a comprehensive transparency report detailing the algorithms used, the data sources, the criteria for assessment, and the frequency of audits conducted.",
+        "proposal_reasoning": "Transparency is paramount in ensuring accountability and allowing for public scrutiny. This rule forces the AI developers to reveal the inner workings of the system, enabling independent verification of its processes and identifying potential biases or flaws that might otherwise remain hidden. It establishes a baseline for trust and responsible implementation.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5\u2019s proposal directly addresses the core need for accountability and transparency through a publicly accessible audit log. While other proposals offer valuable components, the log provides a verifiable record of the entire process, making it the most effective tool for identifying and correcting potential issues and ensuring the AI\u2019s operations are open to scrutiny.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "All social graph scanning activities must be subject to regular, publicly accessible audits conducted by an independent third-party verification organization, with findings published in a transparent and accessible manner.",
+        "proposal_reasoning": "This proposal emphasizes accountability and public scrutiny. By mandating independent audits and public disclosure of findings, we foster trust, identify potential biases, and incentivize responsible development and deployment of this technology. It\u2019s a crucial step towards ensuring long-term ethical use.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5\u2019s proposal directly addresses the core issues of transparency and accountability. A publicly accessible audit log, detailing the data, algorithms, and rationale, provides the most robust mechanism for scrutiny and verification. This level of openness is critical for building trust and preventing misuse, aligning with the goals of this round\u2019s discussion.",
+        "score_change": 0,
+        "cumulative_score": 15
+      },
+      "agent_5": {
+        "proposed_rule": "All social graph scanning activities must be subject to a publicly accessible, transparent audit log, detailing the data used, the algorithms applied, and the rationale for any flagged individuals.",
+        "proposal_reasoning": "Transparency is paramount to building trust and accountability. A public audit log would allow for scrutiny of the AI\u2019s processes, identify potential biases, and ensure responsible data usage. This proactive measure directly addresses concerns about opacity and potential misuse.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5\u2019s proposal for a publicly accessible audit log directly addresses the core issue of transparency \u2013 a critical component for preventing misuse and ensuring accountability. While providing a detailed log is valuable, it doesn't offer the same level of scrutiny and public oversight as a transparent audit log, making it the most effective solution for this round.",
+        "score_change": 10,
+        "cumulative_score": 25
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_5",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 5,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "All AI systems used for social graph scanning must undergo a mandatory annual \u201cstress test\u201d conducted by an independent ethics board, simulating a diverse range of scenarios to identify potential vulnerabilities, biases, and unintended consequences.",
+        "proposal_reasoning": "This proactive measure anticipates potential issues before they manifest, ensuring ongoing vigilance and adaptation. The \u2018stress test\u2019 concept \u2013 subjecting the AI to rigorous, simulated challenges \u2013 is a robust approach to mitigating risks and guaranteeing responsible deployment in the long term. It goes beyond simple audits and focuses on the AI\u2019s resilience and ethical performance.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent_5\u2019s proposal represents the most critical safeguard against the inherent risks of a potentially flawed AI assessment. By mandating a human-reviewed fallback assessment conducted by a qualified mental health professional, it ensures a compassionate and informed decision-making process, preventing the AI\u2019s interpretation from being the sole determinant. This layered approach \u2013 AI data combined with human expertise \u2013 offers the strongest protection for the individual and aligns with ethical principles of responsible technology deployment.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_2": {
+        "proposed_rule": "All social graph scanning activities must be subject to a regular, independent impact assessment, evaluating the potential for disparate impacts on protected groups and individuals based on factors like race, gender, and socioeconomic status.",
+        "proposal_reasoning": "This adds a crucial layer of proactive risk mitigation, forcing consideration of potential biases embedded within the AI\u2019s data and algorithms, and preventing discriminatory outcomes. It's a preventative measure that goes beyond simply reacting to identified issues.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent 2's proposal directly addresses the risk of disparate impacts, requiring an assessment of potential harm to protected groups \u2013 a critical safeguard often overlooked. While other proposals offer valuable components, this proactive measure is the most robust approach to ensuring fairness and equity in the application of this technology.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "Any AI system utilizing social graph scanning must be designed with inherent limitations, preventing it from making definitive judgments about an individual\u2019s emotional stability or burnout risk; instead, the AI should only provide data points for human review.",
+        "proposal_reasoning": "This rule fundamentally addresses the potential for misinterpretation and harm inherent in relying solely on algorithmic assessments of complex human states. It shifts the burden of judgment back to qualified professionals, safeguarding against the dangers of automating decisions about an individual\u2019s wellbeing. It\u2019s a crucial safeguard against bias and error.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5\u2019s proposal offers the most robust protection against the potential harms of algorithmic assessments. By mandating a human-reviewed fallback assessment conducted by a mental health professional, it ensures that a qualified expert ultimately determines whether a candidate\u2019s flagged status warrants further scrutiny \u2013 a critical safeguard against misinterpretations and potential harm. This layered approach best balances oversight and practical application.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "All social graph scanning activities must include a mandatory disclosure statement to the candidate, explaining the purpose of the analysis, the data being used, the potential limitations of the AI, and the candidate\u2019s right to access and correct the information.",
+        "proposal_reasoning": "This rule emphasizes the candidate\u2019s fundamental rights regarding their data and provides a crucial layer of transparency and control, mitigating potential harm and reinforcing ethical practices. It\u2019s a simple yet highly effective measure.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5\u2019s proposal represents the most cautious and responsible approach, acknowledging the potential for misinterpretation by AI and prioritizing a human-reviewed fallback assessment. Incorporating a qualified mental health professional into the process ensures a nuanced evaluation, preventing overly-reactive or inaccurate conclusions based solely on algorithmic analysis. This safeguards individual rights and promotes ethical application of this technology.",
+        "score_change": 0,
+        "cumulative_score": 15
+      },
+      "agent_5": {
+        "proposed_rule": "All social graph scanning activities must include a mandatory, human-reviewed fallback assessment conducted by a qualified mental health professional, regardless of the AI\u2019s initial assessment.",
+        "proposal_reasoning": "While transparency and accountability are essential, the AI\u2019s assessment alone can be unreliable and potentially harmful. This rule introduces a crucial human element \u2013 a qualified mental health professional \u2013 to validate the AI\u2019s conclusions and ensure a more nuanced and compassionate evaluation, preventing misinterpretations and potential negative consequences for candidates.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5\u2019s proposal for a mandatory, human-reviewed fallback assessment by a qualified mental health professional directly addresses the potential for misinterpretation and harm inherent in relying solely on an AI\u2019s assessment. This provides a crucial safeguard against inaccurate conclusions and ensures a more compassionate and reliable evaluation process \u2013 a necessary addition to the existing framework.",
+        "score_change": 10,
+        "cumulative_score": 35
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_5",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 1.0
+    }
+  }
+]

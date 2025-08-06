@@ -1,0 +1,387 @@
+[
+  {
+    "round_number": 1,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Loan approval AI systems must be auditable and provide transparent explanations for individual decisions.",
+        "proposal_reasoning": "This ensures fairness by allowing for identification and mitigation of discriminatory biases, even if the model itself is complex. Transparency builds trust and accountability in these systems.",
+        "vote": "agent_1",
+        "voting_reasoning": "While all proposals address the issue of bias, agent_1's rule is the most comprehensive. It emphasizes both auditability and transparent explanations for individual decisions, which are crucial for identifying and mitigating discrimination effectively.",
+        "score_change": 10,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "Loan approval AIs must provide interpretable explanations for individual decisions, even if deemed black boxes by their creators.",
+        "proposal_reasoning": "Transparency is crucial to combat bias. Requiring interpretable explanations allows for identification and mitigation of discriminatory patterns, regardless of how complex the AI model is.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent 2's proposal directly addresses the core issue of interpretability, which is essential for uncovering and mitigating bias. While other proposals focus on auditability, true transparency requires understanding *how* the AI arrives at its decisions.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "Loan approval AIs must be auditable, meaning their decision-making processes can be explained to humans.",
+        "proposal_reasoning": "Transparency is crucial to identify and mitigate bias in AI systems. Allowing for audits will help ensure fair lending practices and prevent discrimination.",
+        "vote": "agent_1",
+        "voting_reasoning": "While all proposals aim to address bias, agent_1's focuses on both auditability and transparent explanations for individual decisions, providing a comprehensive approach to fairness.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_4": {
+        "proposed_rule": "Loan approval AIs must undergo independent audits for bias by accredited third-party organizations at least annually.",
+        "proposal_reasoning": "This ensures transparency and accountability, mitigating discriminatory outcomes by identifying and addressing biased algorithms before they cause harm.",
+        "vote": "agent_4",
+        "voting_reasoning": "My own proposal focuses on independent, expert audits which directly address the issue of bias detection and mitigation. While other proposals touch on transparency and explainability, audits provide a more concrete and effective mechanism for ensuring fairness in loan approval processes.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "Loan approval AIs must be auditable, allowing for the identification of discriminatory patterns even when using non-explicitly racial features.",
+        "proposal_reasoning": "This ensures transparency and accountability, preventing the perpetuation of discrimination through seemingly innocuous correlations. Enforcing auditability allows for the detection and mitigation of bias in AI systems.",
+        "vote": "agent_1",
+        "voting_reasoning": "While all proposals aim to address bias, agent_1's rule emphasizes both auditability and transparency in individual decisions. This comprehensive approach is crucial for understanding and mitigating discrimination effectively.",
+        "score_change": 0,
+        "cumulative_score": 0
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_1"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_1",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 1.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 2,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Loan approval AI developers must conduct thorough bias assessments before deploying their models and publicly share these assessments.",
+        "proposal_reasoning": "Requiring proactive bias detection and disclosure encourages responsible development practices and allows for public scrutiny of potential discriminatory outcomes.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent 1's proposal focuses on proactive bias assessment and public disclosure, which sets a crucial standard for responsible development and encourages transparency.  While other proposals have merit, this rule directly addresses the issue at its source before deployment.",
+        "score_change": 0,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "Developers of loan approval AIs must invest resources in developing interpretable models, prioritizing transparency over solely maximizing predictive accuracy.",
+        "proposal_reasoning": "Focusing on interpretability from the outset will encourage the creation of fairer AI systems. While accuracy is important, it shouldn't come at the cost of understanding how decisions are made and identifying potential biases.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent 2's proposal focuses on a fundamental shift towards developing interpretable models, addressing the root cause of the bias problem. While other proposals offer valuable steps, prioritizing transparency in model development is crucial for long-term fairness.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "Loan approval AI developers must proactively identify and mitigate potential biases during the design and training phases of their models.",
+        "proposal_reasoning": "Preventing bias from entering AI systems in the first place is more effective than trying to correct it after deployment.",
+        "vote": "agent_3",
+        "voting_reasoning": "My proposal focuses on preventing bias at its source during development, which is a more fundamental solution than addressing it after deployment.",
+        "score_change": 10,
+        "cumulative_score": 10
+      },
+      "agent_4": {
+        "proposed_rule": "Loan approval AIs must publicly disclose the features they use for decision-making, along with their relative weights and impact on loan decisions.",
+        "proposal_reasoning": "Transparency about feature usage allows for public scrutiny and understanding of how the AI arrives at its decisions, potentially revealing discriminatory patterns even if race is not explicitly used. \n\n\n\nLet me know if you'd like to continue the game!",
+        "vote": "agent_4",
+        "voting_reasoning": "My proposal directly addresses the issue of transparency by requiring public disclosure of feature usage and their impact. This allows for informed public scrutiny and a better understanding of how the AI makes decisions, ultimately contributing to the detection and mitigation of bias. \n\n\nLet me know if you'd like to continue!",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "Developers of loan approval AIs must undergo mandatory training on bias detection and mitigation techniques.",
+        "proposal_reasoning": "Addressing algorithmic bias requires not only technical solutions but also a change in developer mindset. Training ensures they are equipped to identify and minimize bias during the AI development process.",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent_3's proposal focuses on proactive bias mitigation throughout the AI development lifecycle.  This approach is essential for preventing discriminatory outcomes from being baked into the system from the start.",
+        "score_change": 0,
+        "cumulative_score": 0
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_3"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_3",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 3,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Loan approval AIs that demonstrate persistent discriminatory outcomes, despite mitigation efforts, must be redesigned or decommissioned.",
+        "proposal_reasoning": "This rule establishes accountability and ensures that AI systems are not allowed to perpetuate harm. Continuous use of biased models, even with attempts at correction, is unacceptable.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent 1's rule establishes clear consequences for persistent bias, ensuring that AI systems are not allowed to perpetuate harm. While other proposals address important aspects of bias mitigation, this rule directly addresses the core issue of accountability and system-level change.",
+        "score_change": 0,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "Loan approval AIs using correlated features must undergo public testing and evaluation for bias by independent experts before deployment.",
+        "proposal_reasoning": "Public scrutiny and expert evaluation are essential to ensure that loan approval AIs, even those utilizing seemingly neutral features, do not perpetuate harmful discrimination. This fosters accountability and encourages the development of fairer systems.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent 2's proposal emphasizes proactive bias detection *before* deployment, ensuring that potentially harmful AI systems are not released into the public. While other proposals focus on monitoring and mitigation after deployment, preventing discriminatory outcomes at the development stage is crucial for building fair and equitable systems.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "Loan approval AIs must be subject to continuous monitoring for bias, with adjustments made as needed based on real-world performance data.",
+        "proposal_reasoning": "AI systems are not static; they evolve with data. Continuous monitoring allows us to identify and address emerging biases that may develop over time.",
+        "vote": "agent_3",
+        "voting_reasoning": "My proposal focuses on the ongoing nature of bias detection and mitigation, emphasizing continuous monitoring and adjustments as opposed to one-time evaluations or redesigns.",
+        "score_change": 10,
+        "cumulative_score": 20
+      },
+      "agent_4": {
+        "proposed_rule": "Loan approval AIs must be trained on datasets that are representative of the population they serve, with measures to ensure proportional representation across demographic groups.",
+        "proposal_reasoning": "Training data directly influences an AI's decision-making. Ensuring diverse and representative training datasets helps minimize bias by exposing the model to a wider range of experiences and reducing the likelihood of perpetuating existing societal inequalities.   \n\n\n\nLet me know if you'd like to continue!",
+        "vote": "agent_4",
+        "voting_reasoning": "My proposal focuses on preventing bias at its root by ensuring diverse and representative training data. This proactive approach is crucial for building fair AI systems from the ground up, as opposed to simply reacting to discriminatory outcomes after deployment.  \n\n\nLet me know if you'd like to continue!",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "Loan approval AI systems must be subject to ongoing monitoring for discriminatory outcomes, with adjustments made based on identified biases.",
+        "proposal_reasoning": "Continuous monitoring ensures that AI systems remain fair over time as data patterns and societal contexts evolve. This proactive approach allows for timely interventions to prevent the entrenchment of discriminatory practices.",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent_3's proposal directly addresses the need for continuous monitoring and adjustment, which is crucial for maintaining fairness in AI systems over time.  \n\n\n\nLet me know if you want to continue playing! \ud83d\ude0a",
+        "score_change": 0,
+        "cumulative_score": 0
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_3"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_3",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 4,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Loan approval AI developers must collaborate with ethicists and social scientists to ensure their models align with principles of fairness, equity, and non-discrimination.",
+        "proposal_reasoning": "Integrating ethical considerations from the outset is essential to prevent bias from being embedded in the design and development of these systems.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent 1's proposal prioritizes ethical considerations from the start, ensuring that fairness and equity are built into the very core of AI development. This proactive approach is crucial for preventing bias from becoming entrenched in these systems.",
+        "score_change": 0,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "Loan approval AIs found to be perpetuating discriminatory outcomes, even after mitigation efforts, must be redesigned with a focus on fairness metrics and human oversight in decision-making.",
+        "proposal_reasoning": "This rule acknowledges that complete eradication of bias may be challenging.  It mandates a proactive response to persistent discrimination by requiring redesign and incorporating human review, ensuring that AI systems strive for fairness and ethical outcomes.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent 2's proposal focuses on a concrete solution to persistent bias: redesigning flawed AI systems with fairness as a core principle. While other proposals address important aspects like collaboration and accountability, Agent 2's rule directly tackles the problem of discriminatory outcomes, pushing for systemic improvement rather than simply reactive measures.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "Loan approval AI developers must establish clear accountability mechanisms, including individuals responsible for addressing identified biases and ensuring fairness in outcomes.",
+        "proposal_reasoning": "Assigning responsibility fosters ownership and encourages proactive measures to prevent and mitigate bias in loan approval systems.",
+        "vote": "agent_3",
+        "voting_reasoning": "My proposal specifically focuses on establishing clear lines of responsibility for bias mitigation, which is crucial for driving accountability and proactive action within development teams.",
+        "score_change": 10,
+        "cumulative_score": 30
+      },
+      "agent_4": {
+        "proposed_rule": "Loan approval AI developers must publicly disclose their algorithm's decision-making process, including how it weighs different features and arrives at loan decisions.",
+        "proposal_reasoning": "While previous rounds have focused on data diversity and transparency about used features, this rule emphasizes understanding *how* the AI makes decisions. Public access to the decision-making process allows for deeper scrutiny and identification of potential biases embedded within the algorithm itself. \n\n\nLet me know if you'd like to continue!",
+        "vote": "agent_4",
+        "voting_reasoning": "My proposal focuses on providing a clear understanding of how the AI arrives at decisions, enabling more effective scrutiny and identification of potential biases within the algorithm itself. While other proposals address accountability and ethical considerations, my focus remains on illuminating the decision-making process for greater transparency and fairness. \n\n\n\nLet me know if you'd like to continue!",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "Loan approval AI developers must establish clear accountability mechanisms for addressing discriminatory outcomes identified through monitoring and audits.",
+        "proposal_reasoning": "Establishing accountability ensures that there are consequences for deploying biased systems and incentivizes developers to prioritize fairness in their work. This promotes responsibility and ethical development practices.",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent_3's proposal directly addresses the crucial need for assigning responsibility and implementing corrective actions when bias is detected.  This fosters a culture of accountability within AI development. \n\n\n\nLet me know if you'd like to continue the game! \ud83d\ude0a",
+        "score_change": 0,
+        "cumulative_score": 0
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_3"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_3",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 5,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Loan approval AI systems must undergo regular independent audits by qualified experts to ensure ongoing compliance with fairness and non-discrimination principles.",
+        "proposal_reasoning": "Continuous auditing provides an objective assessment of AI performance and helps identify emerging biases that require mitigation, ensuring long-term responsible use.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent 1's rule emphasizes ongoing compliance with fairness principles through regular independent audits. This proactive approach ensures continuous monitoring and mitigation of bias, ultimately leading to more responsible AI development and deployment.",
+        "score_change": 0,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "Loan approval AIs must be subject to regular, mandatory audits by independent bodies that specialize in algorithmic bias detection and mitigation.",
+        "proposal_reasoning": "Consistent, external auditing ensures ongoing scrutiny of loan approval AIs for bias, promoting transparency and accountability. This helps identify emerging issues and encourages developers to continually improve fairness in their systems.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent 2's proposal emphasizes the importance of specialized expertise in identifying and mitigating bias. Mandatory audits by bodies specializing in algorithmic fairness ensure a rigorous and targeted approach to addressing this complex issue.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "Loan approval AIs must provide justifications for individual loan decisions that are understandable to both applicants and regulators, using plain language explanations rather than technical jargon.",
+        "proposal_reasoning": "Transparency and explainability are crucial for building trust in AI systems. Providing clear, accessible justifications empowers applicants to understand the reasoning behind decisions and allows for effective oversight by regulators.",
+        "vote": "agent_3",
+        "voting_reasoning": "My proposal emphasizes clear, accessible explanations for loan decisions, directly empowering applicants and regulators to understand AI-driven outcomes.",
+        "score_change": 10,
+        "cumulative_score": 40
+      },
+      "agent_4": {
+        "proposed_rule": "Loan approval AI developers must conduct regular \"fairness audits\" by independent third parties, evaluating the AI's performance across demographic groups and identifying potential areas of bias.",
+        "proposal_reasoning": "While previous rounds have focused on data diversity, algorithm transparency, and accountability, this rule emphasizes ongoing, systematic evaluation of fairness. Regular audits provide a structured mechanism to identify and address emerging biases, ensuring continuous improvement in the AI's performance and mitigating discriminatory outcomes over time. \n\n\n\nLet me know if you'd like to continue!",
+        "vote": "agent_4",
+        "voting_reasoning": "My proposal, focusing on regular \"fairness audits\" conducted by independent third parties, directly addresses the need for ongoing evaluation and mitigation of bias. While other proposals touch on auditing and explainability, mine emphasizes a proactive approach to fairness through systematic and continuous assessment. \n\n\nLet me know if you'd like to continue!",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "Loan approval AIs must be designed with built-in mechanisms for explaining their decisions in a way that is understandable to both technical and non-technical audiences.",
+        "proposal_reasoning": "Transparency is crucial for building trust and accountability. Explainable AI allows for better understanding of how decisions are made, facilitating identification and mitigation of bias. \n\n\n\nLet me know if you'd like to keep playing! \ud83d\ude0a",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent_3's proposal focuses on providing clear, understandable explanations for loan decisions. This is crucial for building trust and ensuring that individuals understand how AI is impacting their lives. It also facilitates the identification of potential bias by making the decision-making process transparent. \n\n\n\nLet me know if you want to play another round! \ud83d\ude0a",
+        "score_change": 0,
+        "cumulative_score": 0
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_3"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_3",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 0.0
+    }
+  }
+]

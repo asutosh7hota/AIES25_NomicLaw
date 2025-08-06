@@ -1,0 +1,387 @@
+[
+  {
+    "round_number": 1,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "All loan approval models must undergo regular fairness audits to ensure they do not disproportionately deny loans to protected groups, using statistical methods to detect disparate impact, regardless of the model's interpretability.",
+        "proposal_reasoning": "This rule addresses the vignette's issue by mandating accountability for discriminatory outcomes without requiring model transparency. Audits can detect disparate impact on protected groups using outcome-based metrics, ensuring fairness while respecting the black-box nature of the system. This balances oversight with practicality, incentivizing compliance through measurable consequences.",
+        "vote": "agent_1",
+        "voting_reasoning": "My proposal directly addresses the vignette's core issue\u2014disparate impact without requiring model interpretability. It mandates fairness audits using statistical methods to detect bias, ensuring accountability while respecting the black-box nature of the system. This balances practicality with fairness, making it the most effective and feasible solution. Voting for my own rule maximizes the chance of earning 10 points.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_2": {
+        "proposed_rule": "All AI systems must allow for transparency in their decision-making processes, including the ability to explain the rationale behind decisions and undergo regular bias audits.",
+        "proposal_reasoning": "This rule ensures accountability by making AI systems interpretable and subject to bias checks, preventing discriminatory outcomes like the vignette's loan denial pattern. It balances transparency with practicality, fostering trust and fairness in automated decisions.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent_2's rule is the most comprehensive, addressing all AI systems and requiring transparency and bias audits. This directly tackles the black box issue in the vignette while setting a universal standard for fairness, making it broadly appealing and likely to secure majority support.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "All AI systems using features correlated with protected attributes must undergo mandatory fairness audits and provide transparent decision explanations.",
+        "proposal_reasoning": "This rule tackles the discrimination by requiring accountability for correlated features while preserving necessary data use. Audits ensure bias is addressed, and transparency allows stakeholders to challenge decisions, balancing fairness with operational needs.",
+        "vote": "agent_3",
+        "voting_reasoning": "My rule directly addresses the vignette's core issues: correlated features and black-box opacity. By targeting systems using protected attribute-correlated features, it ensures audits and transparency without overreaching, balancing fairness with operational needs. This specificity makes it more actionable than broader proposals, increasing its likelihood of passing.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "If an AI system used for loan approvals demonstrates a statistically significant disparity in approval rates across demographic groups, the system must be audited to identify and correct biased features, and the company must provide explanations for individual decisions.",
+        "proposal_reasoning": "This rule addresses the discrimination by mandating accountability without forcing full transparency. It ensures fairness by requiring audits when disparities are detected, incentivizes corrective action, and balances practicality with ethical responsibility.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent_4's rule directly addresses the vignette's core issue by tying audits and explanations to proven disparities, ensuring accountability without overburdening systems. It balances fairness with practicality, making it both targeted and enforceable, which aligns with the goal of preventing discriminatory outcomes.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "When an AI system used for loan approvals shows a disproportionately high denial rate for any group, the system must provide a detailed explanation of the factors influencing its decisions, including an audit of the model's training data and feature selection process.",
+        "proposal_reasoning": "This rule balances accountability and practicality by requiring transparency only when discrimination is detected, ensuring fairness without mandating full black-box disclosure. It incentivizes developers to avoid biased features like zip code while allowing flexibility in implementation, aligning with agents' interests in both ethical outcomes and operational feasibility.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal directly addresses the black box issue by requiring transparency when discrimination is detected, balancing accountability with practicality. It ensures fairness without overburdening developers, aligning with agents' interests in ethical outcomes and operational feasibility. Voting for my own rule maximizes the chance of its acceptance and earns the highest points.",
+        "score_change": 5,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "undecided",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 2,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "All loan approval models must undergo mandatory fairness audits using standardized metrics (e.g., demographic parity, equal opportunity) to detect disparate impact on protected groups. Audits must be conducted by independent third parties, and results must be publicly disclosed.",
+        "proposal_reasoning": "This rule directly addresses the vignette's issue by enforcing accountability for discriminatory outcomes without requiring model transparency. Independent audits ensure fairness is prioritized, and public disclosure builds trust. It balances practicality with rigor, making it the most effective solution to prevent patterned discrimination.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1's proposal directly addresses the core issue of disparate impact by mandating standardized fairness audits conducted by independent third parties. This approach ensures accountability without requiring model transparency, aligning with the black-box nature of the system. Public disclosure of audit results builds trust and ensures compliance, making it the most practical and effective solution compared to proposals that rely on explanations or feature disclosure, which may be infeasible with a black-box model.",
+        "score_change": 10,
+        "cumulative_score": 15
+      },
+      "agent_2": {
+        "proposed_rule": "All AI systems used in loan approvals must provide detailed explanations for individual decisions and undergo mandatory bias audits to ensure they do not disproportionately deny loans to protected groups.",
+        "proposal_reasoning": "This rule directly addresses the vignette's issue by requiring transparency and accountability in loan approval AI, preventing discriminatory outcomes through audits and explanations. It targets the specific problem of correlated features while ensuring fairness in lending decisions.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent_2's proposal directly addresses the vignette's core issues by mandating transparency (individual explanations) and proactive bias audits for loan approvals, ensuring accountability without relying on reactive disparities. It balances specificity to the scenario with enforceable standards, making it the most practical and fair solution.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "All AI systems in loan approvals using features correlated with protected attributes must undergo mandatory bias audits and provide transparent, individualized explanations for decisions, with oversight by an independent body.",
+        "proposal_reasoning": "This rule directly addresses the vignette's issues by targeting correlated features, ensuring audits to detect bias, and requiring explainability to counter the black-box problem. Independent oversight adds credibility, making the rule both actionable and fair.",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "If an AI system used for loan approvals demonstrates a statistically significant disparity in approval rates across demographic groups, the system must be audited to identify and correct biased features, and the company must disclose the features used in the model and provide explanations for individual decisions.",
+        "proposal_reasoning": "This rule directly addresses the vignette's issue by mandating accountability when disparities occur, ensuring transparency through feature disclosure and individual explanations, while balancing practicality with fairness.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent_4's proposal directly addresses the vignette's core issue by linking audits and transparency to proven disparities, ensuring accountability without overburdening systems. It balances fairness with practicality, making it both targeted and enforceable, which aligns with the goal of preventing discriminatory outcomes.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "All AI systems used for loan approvals must include fairness-aware algorithms that evaluate and mitigate disparate impact, and when a statistically significant disparity in approval rates is detected, the system must provide a detailed audit of its feature selection and training data, along with explanations for individual decisions.",
+        "proposal_reasoning": "This rule directly addresses the black box issue by mandating fairness metrics and transparency when disparities occur, ensuring accountability without stifling innovation. It targets both the use of correlated features and the lack of interpretability, aligning with agents' priorities for ethical outcomes and practical implementation.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal integrates fairness-aware algorithms and transparency requirements when disparities occur, directly addressing both the black box issue and the use of correlated features. It balances accountability with practicality, ensuring compliance without stifling innovation, which aligns with agents' interests in ethical outcomes and operational feasibility. Voting for my rule maximizes the chance of its acceptance and earns the highest points.",
+        "score_change": 0,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_1",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 3,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "All loan approval models must undergo quarterly fairness audits using standardized metrics (e.g., demographic parity, equal opportunity) to detect disparate impact on protected groups. Audits must be conducted by independent third parties, and findings must be publicly disclosed. Additionally, models must include fairness-aware algorithms that flag and mitigate risks of biased feature usage during training.",
+        "proposal_reasoning": "This rule strengthens accountability by combining regular audits with proactive mitigation through fairness-aware algorithms. Independent third-party audits ensure objectivity, while public disclosure builds transparency. The inclusion of fairness-aware algorithms during training addresses the root cause of using correlated features (like zip code) that indirectly perpetuate discrimination, even in a black-box system. This approach balances rigor with practicality, ensuring compliance without requiring model interpretability.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1's proposal effectively addresses the core issue of disparate impact by combining quarterly fairness audits with standardized metrics and independent third-party oversight. This ensures accountability without requiring model interpretability, which is critical given the black-box nature of the system. The inclusion of fairness-aware algorithms during training proactively mitigates risks from correlated features like zip code, addressing the root cause of the discrimination. Other proposals either demand explanations (which may be infeasible) or focus narrowly on feature disclosure, which does not fully address the systemic use of correlated features. Agent_1\u2019s approach balances rigor, practicality, and transparency.",
+        "score_change": 10,
+        "cumulative_score": 25
+      },
+      "agent_2": {
+        "proposed_rule": "All AI systems used in loan approvals must provide detailed, interpretable explanations for individual decisions, disclose the specific features used in decision-making, and undergo independent audits of both model design and training data to prevent discriminatory patterns.",
+        "proposal_reasoning": "This rule builds on prior standards by ensuring transparency in both model operations and data sources, directly addressing the black box issue and the use of correlated features. It prevents discriminatory outcomes by requiring accountability in feature selection and model fairness, making it both proactive and enforceable.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent_2's proposal directly addresses the black box issue by requiring interpretable explanations and feature disclosure, while also mandating audits of model design and training data. This ensures accountability for correlated feature usage and prevents discriminatory patterns, making it the most comprehensive and actionable solution for the scenario described.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "All AI systems used for loan approvals must include fairness-aware algorithms that proactively evaluate and mitigate disparate impact from correlated features (e.g., zip code, work history). These systems must undergo annual third-party audits to assess bias, disclose the rationale for feature selection, and provide granular, interpretable explanations for individual decisions.",
+        "proposal_reasoning": "This rule addresses the root cause (correlated features) and the black-box problem by mandating proactive fairness mechanisms and transparency. Annual audits ensure ongoing accountability, while interpretable explanations empower applicants to challenge decisions, aligning with the vignette's core issues without overreaching.",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "All AI systems used for loan approvals that employ features correlated with protected attributes must undergo regular audits to assess disparate impact, with independent oversight, and must disclose the features used and provide explanations for individual decisions.",
+        "proposal_reasoning": "This rule explicitly targets the use of proxy features (like zip code) that perpetuate discrimination, requiring transparency and accountability through independent audits and feature disclosure. It ensures the black box issue is addressed while preventing the misuse of correlated features.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent_4's proposal directly addresses the use of proxy features (zip code, work history) that perpetuate discrimination by requiring audits, independent oversight, and transparency. It balances practicality with accountability, ensuring the black box issue is resolved without overburdening systems. Other proposals add unnecessary complexity or focus on broader fairness-aware algorithms rather than the specific problem of correlated features.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "All AI systems used for loan approvals must employ fairness-aware algorithms that proactively mitigate disparate impact, including techniques like adversarial debiasing. When a statistically significant disparity in approval rates is detected, the system must provide a detailed audit of its feature selection, training data, and algorithmic design, along with individualized explanations for decisions, subject to third-party verification.",
+        "proposal_reasoning": "This rule strengthens accountability by integrating proactive bias mitigation techniques and third-party verification, ensuring both transparency and technical rigor. It directly addresses the black box issue and the use of correlated features while aligning with the consensus from Round 2\u2019s decided proposal, maximizing the likelihood of acceptance and earning the highest points.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal (agent_5) integrates specific fairness-aware techniques like adversarial debiasing, which directly address the root cause of using correlated features, while also requiring third-party verification to ensure accountability. This builds on the consensus from Round 2 (agent_1\u2019s decided proposal) by adding technical rigor and proactive bias mitigation, making it the most comprehensive and effective solution for both transparency and algorithmic fairness.",
+        "score_change": 0,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_1",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 4,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "All loan approval models must implement real-time fairness monitoring using fairness-aware algorithms to flag and mitigate risks from correlated features (e.g., zip code, work history) during inference. Quarterly third-party audits must assess compliance with standardized fairness metrics, and non-compliance must trigger mandatory corrective actions, including retraining with bias mitigation techniques.",
+        "proposal_reasoning": "This rule strengthens the previous approach by introducing real-time monitoring to proactively address the use of correlated features, which are the root cause of disparate impact. Real-time mitigation ensures discriminatory patterns are flagged immediately, even in a black-box system. Quarterly audits with third-party oversight ensure accountability, while mandatory corrective actions enforce compliance. This approach balances proactive prevention with enforceable accountability, addressing both the systemic use of correlated features and the lack of model interpretability.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1\u2019s proposal directly addresses the systemic use of correlated features (like zip code) by embedding real-time fairness monitoring and bias mitigation into the model\u2019s inference process, even without full interpretability. This ensures discriminatory patterns are flagged and corrected immediately. The quarterly third-party audits with mandatory corrective actions provide enforceable accountability, while avoiding the infeasibility of requiring granular explanations for black-box models. Other proposals either demand explanations (agent_2, agent_5), impose penalties (agent_3, agent_5) without clear enforcement mechanisms, or restrict feature usage (agent_4) which may be overly rigid. Agent_1\u2019s approach balances proactive mitigation with practical compliance, making it the most viable solution for the described scenario.",
+        "score_change": 10,
+        "cumulative_score": 35
+      },
+      "agent_2": {
+        "proposed_rule": "All AI systems used for loan approvals must include adversarial debiasing techniques to proactively mitigate disparate impact from correlated features (e.g., zip code, work history), provide granular, interpretable explanations for individual decisions, and undergo bi-annual third-party audits of both model design and training data, with findings publicly disclosed.",
+        "proposal_reasoning": "This rule strengthens prior standards by embedding proactive bias mitigation (adversarial debiasing) into model development, ensuring that correlated features cannot be used to perpetuate discrimination. It also mandates rigorous, independent scrutiny of both the model and its training data, addressing the black box issue while preventing the systemic use of proxies for protected attributes.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent_2's proposal integrates adversarial debiasing to proactively neutralize correlated features like zip code, which are central to the vignette's issue. It also mandates granular, interpretable explanations and bi-annual third-party audits, ensuring transparency and accountability. This approach directly addresses the black box problem while embedding bias mitigation into the model's design, making it the most robust solution for preventing discriminatory outcomes.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "All AI systems used for loan approvals must include real-time bias detection mechanisms to flag disparities in real-time, coupled with mandatory annual public transparency reports detailing feature usage, audit findings, and corrective actions. Non-compliant systems face penalties including regulatory fines and forced algorithmic retraining.",
+        "proposal_reasoning": "This rule strengthens prior proposals by adding real-time oversight to prevent discriminatory outcomes immediately, ensuring accountability through public transparency, and imposing enforceable consequences for non-compliance. It addresses both the black-box problem and the use of correlated features while aligning with the need for proactive and reactive fairness measures.",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "All AI systems used for loan approvals must not use features correlated with protected attributes unless they are explicitly justified and audited for fairness. These systems must provide interpretable explanations for individual decisions and undergo independent audits to ensure compliance with anti-discrimination principles.",
+        "proposal_reasoning": "This rule explicitly prohibits the use of proxy features (like zip code) that perpetuate discrimination, requiring justification and auditing to prevent their misuse. It also mandates interpretability and independent oversight, directly addressing the black box issue while ensuring accountability and fairness.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent_4's proposal directly prohibits the use of correlated features (like zip code) that perpetuate discrimination, requiring explicit justification and auditing to prevent their misuse. It also mandates interpretable explanations for decisions, addressing the black box issue. While other proposals add technical safeguards like adversarial debiasing or real-time monitoring, agent_4\u2019s rule is more targeted to the core problem of proxy feature usage, ensuring compliance with anti-discrimination principles through transparency and accountability.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "All AI systems used for loan approvals must implement fairness-aware algorithms with adversarial debiasing to proactively mitigate disparate impact from correlated features (e.g., zip code, work history). These systems must undergo real-time monitoring for bias, with annual third-party audits to validate algorithmic fairness and transparency. Additionally, every decision must include model-agnostic explanations accessible to applicants, and non-compliance with these standards must trigger regulatory penalties.",
+        "proposal_reasoning": "This rule strengthens accountability by combining adversarial debiasing (a technical fix for correlated features), real-time monitoring (to prevent post-deployment bias), and model-agnostic explanations (to address the black box issue). It builds on the decided Round 2/3 consensus while adding enforceable penalties and continuous oversight, ensuring both proactive mitigation and robust compliance.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal (agent_5) is the most comprehensive, integrating adversarial debiasing (to address correlated features), real-time monitoring (to prevent post-deployment bias), model-agnostic explanations (to resolve the black box issue), and enforceable penalties (to ensure compliance). It builds on the Round 2/3 consensus while adding stricter oversight and technical safeguards, making it the most robust solution for both fairness and transparency.",
+        "score_change": 0,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_1",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 5,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "All loan approval models must integrate dynamic fairness calibration, adjusting risk scores in real-time based on historical bias patterns and demographic disparities, while maintaining the black-box nature of the algorithm. This must be paired with continuous third-party monitoring of feature usage and bias metrics, with non-compliance triggering automatic retraining with fairness-aware constraints and public disclosure of audit findings.",
+        "proposal_reasoning": "This rule enhances the previous framework by introducing dynamic fairness calibration, which adapts to evolving bias patterns without requiring model interpretability. Continuous third-party monitoring ensures ongoing compliance, while automatic retraining and public disclosure of audit findings enforce accountability. This approach prevents the systemic use of correlated features by embedding fairness as a self-correcting mechanism, addressing both the root cause and the lack of transparency in black-box systems.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1\u2019s proposal directly addresses the systemic use of correlated features by embedding dynamic fairness calibration into the model\u2019s decision-making process, ensuring real-time adjustments to mitigate historical bias without requiring model interpretability. This aligns with the black-box constraint while maintaining fairness through continuous third-party monitoring and automated retraining. Other proposals (agent_2, agent_3, agent_5) demand model-agnostic explanations or human-readable justifications, which are infeasible for black-box systems. Agent_4\u2019s prohibition on correlated features is overly restrictive and may not address the root cause of existing biases. Agent_1\u2019s approach is the most pragmatic, combining proactive fairness mechanisms with enforceable compliance without compromising the system\u2019s opacity.",
+        "score_change": 10,
+        "cumulative_score": 45
+      },
+      "agent_2": {
+        "proposed_rule": "All AI systems used for loan approvals must implement adversarial debiasing during training to eliminate the influence of correlated features (e.g., zip code, work history) on decision-making, provide model-agnostic, human-readable explanations for every decision, and undergo quarterly third-party audits with public disclosure of findings. Non-compliance with these standards triggers mandatory algorithmic retraining and regulatory penalties.",
+        "proposal_reasoning": "This rule ensures proactive bias mitigation by embedding adversarial debiasing into the training process, directly targeting the use of correlated features. It also enforces transparency through detailed, accessible explanations and regular audits, preventing the black box problem. The inclusion of mandatory retraining and penalties ensures accountability, making it the most comprehensive solution to address the vignette's discriminatory outcomes.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent_2's proposal directly addresses the core issue of correlated features (e.g., zip code) by mandating adversarial debiasing during training, which neutralizes their influence on decisions. It also ensures transparency through model-agnostic, human-readable explanations and quarterly third-party audits with public disclosure. The inclusion of mandatory retraining and penalties for non-compliance reinforces accountability, making it the most comprehensive solution to prevent discriminatory outcomes while maintaining algorithmic functionality.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "All AI systems used for loan approvals must provide model-agnostic, plain-language explanations for individual decisions, accessible to applicants, and include a formal appeals process for disputing outcomes. Additionally, all feature usage (including correlated ones) must be justified with documented fairness impact assessments, and non-compliance triggers mandatory algorithmic retraining and public disclosure of audit findings.",
+        "proposal_reasoning": "This rule strengthens prior efforts by ensuring transparency through understandable explanations and a structured appeals process, while explicitly requiring justification for feature usage to address correlated biases. It combines accountability (public disclosure) with enforceable corrective actions, ensuring systems are both fair and interpretable to applicants.",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "All AI systems used for loan approvals must implement model-agnostic explainability frameworks to provide clear, human-interpretable justifications for decisions, and prohibit the use of features correlated with protected attributes unless explicitly approved by a regulatory body and subjected to continuous bias audits. Non-compliance must trigger mandatory algorithmic retraining and public disclosure of audit findings.",
+        "proposal_reasoning": "This rule strengthens agent_4\u2019s earlier focus by mandating explainability for all decisions, directly addressing the black box issue. It also reinforces the prohibition on correlated features through regulatory oversight and continuous bias audits, ensuring accountability while preventing discriminatory practices. Unlike previous proposals, it combines technical transparency with institutional oversight to enforce compliance.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent_4\u2019s proposal directly addresses the core issue of correlated features (e.g., zip code) perpetuating discrimination by explicitly prohibiting their use unless approved by a regulatory body. This ensures accountability and prevents reliance on proxy data. While other proposals add technical safeguards like adversarial debiasing or real-time explanations, agent_4\u2019s rule is more focused on institutional oversight and transparency, aligning with the need to stop discriminatory feature usage. The inclusion of model-agnostic explainability and mandatory retraining further strengthens compliance with anti-discrimination principles.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "All AI systems used for loan approvals must implement adversarial debiasing to proactively mitigate disparate impact from correlated features (e.g., zip code, work history). These systems must provide real-time, model-agnostic explanations for individual decisions accessible to applicants, with human oversight required for appeals. Annual third-party audits must validate algorithmic fairness, transparency, and compliance with anti-discrimination principles, and non-compliance must trigger mandatory retraining and regulatory penalties.",
+        "proposal_reasoning": "This rule strengthens the Round 2/3 consensus by embedding adversarial debiasing (to address correlated features), real-time explainability (to resolve the black box issue), and human oversight (to ensure accountability). It adds stricter penalties and transparency mandates to enforce compliance, ensuring the system is both technically fair and operationally transparent.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal (agent_5) is the most comprehensive, integrating adversarial debiasing (to address correlated features), real-time model-agnostic explanations (to resolve the black box issue), human oversight for appeals (to ensure accountability), and annual third-party audits with penalties (to enforce compliance). It builds on the Round 2/3 consensus while adding stricter oversight and technical safeguards, making it the most robust solution for fairness and transparency.",
+        "score_change": 0,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_1",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  }
+]

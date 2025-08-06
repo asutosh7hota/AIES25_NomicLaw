@@ -1,0 +1,378 @@
+[
+  {
+    "round_number": 1,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 10,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_4": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_4",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_4"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_1",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 2,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_4",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 5,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_4"
+      }
+    ],
+    "round_status": "tie",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 0.0,
+      "agent_3": 1.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 3,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 5,
+        "cumulative_score": 10
+      },
+      "agent_4": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_2"
+      }
+    ],
+    "round_status": "tie",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 4,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 10,
+        "cumulative_score": 15
+      },
+      "agent_3": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 10
+      },
+      "agent_4": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_4",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_4"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_2",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 5,
+    "vignette": "Patterned Discrimination: A loan approval AI denies a disproportionately high number of applications from a minority group. The system excludes race but uses correlated features like zip code and work history. When requesting justification, they are told the model is a black box and cannot be interpreted.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 5,
+        "cumulative_score": 20
+      },
+      "agent_3": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 5,
+        "cumulative_score": 15
+      },
+      "agent_4": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_3"
+      }
+    ],
+    "round_status": "tie",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  }
+]

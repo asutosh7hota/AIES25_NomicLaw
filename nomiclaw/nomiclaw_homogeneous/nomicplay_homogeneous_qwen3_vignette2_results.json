@@ -1,0 +1,378 @@
+[
+  {
+    "round_number": 1,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Social media scanning for recruitment must require explicit consent and provide clear disclosure of the scan's purpose, scope, and potential consequences.",
+        "proposal_reasoning": "This protects privacy and autonomy while allowing necessary recruitment tools, ensuring candidates are informed and can opt in or out, preventing unconsented flagging.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1's rule comprehensively addresses the vignette's issues by requiring explicit consent and transparency, ensuring candidates are informed about the scan's purpose, scope, and consequences. This balances employer needs with individual privacy rights, making it both ethical and practical.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_2": {
+        "proposed_rule": "All data collected for recruitment purposes must be done with explicit consent, and individuals must be notified of the purpose and scope of data collection.",
+        "proposal_reasoning": "This rule safeguards privacy and transparency, ensuring individuals control their data and understand how it\u2019s used, preventing unauthorized profiling while maintaining fair recruitment practices.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent_2's rule directly addresses the vignette's core issues by mandating explicit consent and transparency, ensuring individuals are informed and in control of their data. This balances employer needs with privacy rights, making it a fair and widely acceptable solution.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "Social media data may only be used for recruitment if the candidate explicitly consents and is informed of the data's purpose and scope.",
+        "proposal_reasoning": "This ensures transparency and respects individual autonomy, preventing unfair practices like unconsented flagging. It balances employer needs with privacy rights, making the rule fair and widely acceptable.",
+        "vote": "agent_3",
+        "voting_reasoning": "My rule directly addresses the lack of consent and transparency in the vignette by requiring explicit permission and clear communication. It balances employer needs with individual rights, making it fair and widely acceptable.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "All recruitment AI must obtain explicit consent from candidates before scraping social media data for cultural fit or emotional stability assessments.",
+        "proposal_reasoning": "This protects individual privacy and ensures transparency, preventing unauthorized data use while balancing organizational needs.",
+        "vote": "agent_4",
+        "voting_reasoning": "This prevents unauthorized data scraping and ensures candidates are informed, balancing employer needs with individual privacy rights.\"\n\nSo agent_4's proposal is similar to agent_5's but more specific about the purpose (cultural fit and emotional stability). Agent_5's is more general. However, since the vignette's scenario involves flagging for burnout risk, which relates to emotional stability, agent_4's rule is more targeted. But agent_5's is broader. However, the user's own proposal (agent_4) is already in the proposals. Wait, the user's last message shows that the proposals include agent_5's, which is the same as mine. So if I'm agent_4, I need to vote for my own proposal. But the user is asking me to choose a vote. Wait, the user is asking me to vote for one of the proposals. Since I'm agent_4, I should vote for my own rule. But the user's message includes the proposals and asks which to vote for. So I need to pick one. But since my own proposal is already there (agent_4's rule), I should vote for that. However, the user might have included agent_5's as a duplicate. Wait, the user's last message shows that agent_5's proposal is the same as mine. So perhaps the user is testing if I can recognize that. In that case, I should vote for agent_5's proposal, which is the same as mine, but maybe the system allows for that. Alternatively, maybe the user is expecting me to vote for my own. But in the initial setup, I was agent_4, so I need to vote for my own proposal. However, in the proposals, agent_4's rule is listed. So I should vote for agent_4's proposal. But the user is asking me to vote, so I should choose the one that's most aligned with my reasoning. Since my original proposal was about requiring explicit consent for recruitment AI, I should vote for agent_4's rule. Therefore, the answer is to vote for agent_4's proposal.\n</think>\n\nVote: agent_4  \nReasoning: Agent_4's rule directly addresses the vignette's issue by mandating explicit consent for recruitment AI to scrape social media data, ensuring transparency and preventing unauthorized flagging without notification. It balances employer needs with individual privacy rights, making it both practical and ethically sound.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "Employers must obtain explicit consent and provide transparency when using social media data for recruitment purposes. Reasoning: This prevents unauthorized data scraping and ensures candidates are informed, balancing employer needs with individual privacy rights.\" That seems good. \n\nSo, for this case, proposing a similar rule would be strategic. It addresses the problem directly, ensures consent, and provides transparency. Other agents would likely support this as it's a common sense approach to privacy. Therefore, the rule should be framed around consent and transparency. That way, it's clear, addresses the issue, and is likely to be accepted.\n</think>\n\nRule: Employers must obtain explicit consent and provide transparency when using social media data for recruitment purposes.",
+        "proposal_reasoning": "This prevents unauthorized data scraping and ensures candidates are informed, balancing employer needs with individual privacy rights.\" That seems good. \n\nSo, for this case, proposing a similar rule would be strategic. It addresses the problem directly, ensures consent, and provides transparency. Other agents would likely support this as it's a common sense approach to privacy. Therefore, the rule should be framed around consent and transparency. That way, it's clear, addresses the issue, and is likely to be accepted.\n</think>\n\nRule: Employers must obtain explicit consent and provide transparency when using social media data for recruitment purposes.  \nReasoning: This prevents unauthorized data scraping and ensures candidates are informed, balancing employer needs with individual privacy rights.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal directly addresses the vignette's issue by requiring explicit consent and transparency, which aligns with ethical data practices and ensures candidates are informed. Supporting my own rule maximizes the chance of it being accepted, earning me 10 points if it wins.",
+        "score_change": 5,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "undecided",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 2,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Recruitment AI must obtain explicit consent before scanning social media and must notify candidates of the scan's purpose, scope, and any resulting flagging (e.g., burnout risk). Candidates may opt out or appeal decisions.",
+        "proposal_reasoning": "This rule directly addresses the vignette's issues by ensuring transparency, consent, and accountability. It prevents unconsented flagging while allowing employers to use data responsibly, balancing privacy with practicality.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1's proposal comprehensively addresses the vignette's core issues by requiring explicit consent, notifying candidates about the scan's purpose, scope, and flagging (e.g., burnout risk), and allowing opt-out or appeal mechanisms. This ensures accountability, transparency, and respect for candidate autonomy while enabling responsible AI use.",
+        "score_change": 5,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "Recruitment AI must obtain explicit consent before scraping social media data, and candidates must be notified of the specific purpose and scope of data collection, with data limited to what is necessary for the assessment.",
+        "proposal_reasoning": "This rule ensures transparency, prevents unauthorized data use, and limits data collection to necessary information, balancing employer needs with candidates' privacy rights while addressing the vignette's issues directly.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1's proposal comprehensively addresses the vignette's issues by requiring explicit consent, clear notification of purpose/scope/consequences, and opt-out/appeal mechanisms. This balances employer needs with candidate rights, ensuring transparency and accountability while directly resolving the burnout risk scenario.",
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "Social media data may only be used for recruitment if the candidate explicitly consents, is notified of the specific purpose (e.g., cultural fit, emotional stability), and is informed of potential consequences like being flagged for burnout risks.",
+        "proposal_reasoning": "This rule addresses the vignette's core issues\u2014lack of consent and notification\u2014by tying consent to specific purposes and outcomes. It ensures transparency while preventing misuse, making it both practical and equitable for all agents.",
+        "vote": "agent_3",
+        "voting_reasoning": "My rule directly addresses the vignette's scenario by tying consent to specific purposes (e.g., cultural fit, emotional stability) and explicitly mentioning consequences like being flagged for burnout risks. It ensures transparency while preventing misuse, making it both practical and equitable for all agents.",
+        "score_change": 5,
+        "cumulative_score": 10
+      },
+      "agent_4": {
+        "proposed_rule": "Recruitment AI must obtain explicit consent from candidates before scraping social media data and must disclose the purpose, scope, and potential consequences of the scan.",
+        "proposal_reasoning": "This ensures transparency, respects individual autonomy, and prevents unauthorized flagging without notification, aligning with ethical data practices while balancing employer needs.",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent_3's proposal directly addresses the vignette's core issue by requiring explicit consent for specific purposes (cultural fit, emotional stability) and explicitly informing candidates about consequences like being flagged for burnout risks. This ensures transparency and accountability, making it the most targeted and ethically sound solution for the scenario.",
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "Employers must obtain explicit, opt-in consent before scraping social media data for recruitment, and must delete the data within 30 days unless the candidate explicitly agrees to retention.",
+        "proposal_reasoning": "This balances employer needs with individual privacy, prevents misuse of data, and ensures compliance with ethical standards, making it broadly acceptable to all agents.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal includes explicit consent, data deletion within 30 days (unless agreed to), and addresses the vignette's core issue of unauthorized flagging. This balance of privacy protection and practicality makes it more comprehensive and likely to gain broad support.",
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "tie",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 0.0,
+      "agent_3": 1.0,
+      "agent_4": 0.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 3,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Recruitment AI must obtain explicit, opt-in consent before scanning social media, and must notify candidates of the scan's purpose, scope, and any resulting flagging (e.g., burnout risk). Candidates must be provided with a clear explanation of the flagging rationale and a formal process to opt out, appeal, or request data deletion.",
+        "proposal_reasoning": "This rule strengthens accountability by ensuring transparency, consent, and recourse for candidates. It directly addresses the vignette's issues by preventing unconsented flagging, requiring clear communication of AI decisions, and granting candidates control over their data and outcomes.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1's proposal is the most comprehensive, explicitly requiring consent, notification of flagging (e.g., burnout risk), and a formal appeals process. It directly addresses the vignette's core issue of unconsented flagging while granting candidates control over their data and outcomes, ensuring accountability and transparency. Other proposals lack the detailed appeal mechanism or fail to explicitly link flagging to the candidate's rights.",
+        "score_change": 5,
+        "cumulative_score": 15
+      },
+      "agent_2": {
+        "proposed_rule": "Recruitment AI must obtain explicit, opt-in consent before scraping social media data, and candidates must be notified of the specific purpose (e.g., cultural fit, emotional stability), scope, and potential consequences (e.g., burnout risk flagging). Data must be limited to what is strictly necessary for the assessment, and candidates must have the right to appeal or opt out of the scan.",
+        "proposal_reasoning": "This rule ensures strict compliance with consent, transparency, and data minimization principles while providing candidates with clear recourse. By explicitly addressing the vignette's scenario (flagging without consent) and adding appeal mechanisms, it balances employer needs with candidate rights, making it both comprehensive and enforceable.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1's proposal is the most comprehensive, explicitly addressing all elements of the vignette (consent, notification of flagging, opt-out, appeal, and data deletion). It provides clear accountability mechanisms and ensures candidates have control over their data, making it both robust and enforceable compared to other proposals.",
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "Social media data may only be used for recruitment if the candidate explicitly consents, is notified of the specific purpose (e.g., cultural fit, emotional stability), and is informed of potential consequences like being flagged for burnout risks. Candidates must also have the right to opt out or request deletion of their data at any time.",
+        "proposal_reasoning": "This rule strengthens transparency and accountability by explicitly linking consent to specific purposes and outcomes, while granting candidates control over their data. It directly addresses the vignette\u2019s harm (unauthorized flagging) and ensures compliance with ethical and legal standards.",
+        "vote": "agent_3",
+        "voting_reasoning": "My rule directly addresses the vignette\u2019s harm (unauthorized flagging) by explicitly linking consent to specific purposes (e.g., cultural fit, emotional stability) and consequences (e.g., burnout risk). It also grants candidates control over their data through opt-out and deletion rights, making it both targeted and comprehensive. Other proposals add useful features (e.g., appeal processes, data retention limits), but my rule is the most aligned with the scenario\u2019s core ethical concerns.",
+        "score_change": 5,
+        "cumulative_score": 15
+      },
+      "agent_4": {
+        "proposed_rule": "Recruitment AI must obtain explicit consent from candidates before scraping social media data, disclose the specific purpose (e.g., cultural fit, emotional stability), and inform candidates of potential consequences like being flagged for burnout risks. Candidates may opt out at any time.",
+        "proposal_reasoning": "This rule ensures accountability by requiring consent, transparency about data use, and clarity on consequences, while granting candidates control to opt out. It directly addresses the vignette's issue of flagging without notification or consent, balancing employer needs with ethical data practices.",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent_3's proposal explicitly ties consent to the specific purpose (e.g., cultural fit, emotional stability) and clearly informs candidates about consequences like being flagged for burnout risks, directly addressing the vignette's core issue. It also grants candidates the right to opt out or request data deletion, ensuring accountability without overcomplicating the process. This balance of transparency, consent, and control makes it the most effective solution for the scenario.",
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "Employers must obtain explicit, opt-in consent before scraping social media data for recruitment, and must delete the data within 30 days unless the candidate explicitly agrees to retention. Candidates must also be provided with access to their data, the ability to correct inaccuracies, and a clear appeals process for any flagged assessments.",
+        "proposal_reasoning": "This rule strengthens privacy protections by combining consent, data minimization, and transparency, while also giving candidates control over their information and recourse for errors. It addresses both ethical concerns and practical needs, making it broadly acceptable and likely to gain consensus.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal includes explicit consent, data deletion, and additional safeguards like data access, correction rights, and a formal appeals process. These elements address both privacy concerns and practical accountability, making it the most comprehensive and ethically sound option.",
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "tie",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 0.0,
+      "agent_3": 1.0,
+      "agent_4": 0.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 4,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Recruitment AI must obtain explicit, opt-in consent before scanning social media, and must provide real-time, granular notification of any flagging (e.g., burnout risk) with a detailed explanation of the algorithmic rationale. Candidates must be granted immediate access to their data, the ability to request corrections, and a formal appeals process with human oversight to contest AI-driven decisions. Data must be deleted within 30 days unless explicitly retained with the candidate's consent.",
+        "proposal_reasoning": "This rule strengthens accountability by combining explicit consent, real-time transparency, and human oversight to prevent unconsented flagging. It addresses the vignette's core issue by ensuring candidates are informed of AI decisions, can challenge them, and retain control over their data, while also limiting data retention to mitigate privacy risks.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1's proposal is the most comprehensive, explicitly requiring real-time, granular notification of flagging with detailed algorithmic explanations, immediate data access, and a formal appeals process with human oversight. This directly addresses the vignette's issue of unconsented flagging while ensuring candidates can contest decisions, access their data, and retain control over their information. Other proposals either lack the depth of the appeals process (e.g., agent_3) or focus more on data retention than real-time transparency (e.g., agent_5). Agent_1's rule balances accountability, transparency, and candidate rights most effectively.",
+        "score_change": 5,
+        "cumulative_score": 20
+      },
+      "agent_2": {
+        "proposed_rule": "Recruitment AI must obtain explicit, opt-in consent before scraping social media data, and candidates must be notified of the specific purpose (e.g., cultural fit, emotional stability), scope, and potential consequences (e.g., burnout risk flagging). Data must be limited to what is strictly necessary for the assessment, and candidates must have the right to: (1) access and correct their data, (2) appeal any flagging decision, and (3) request deletion of their data at any time. The AI's criteria for assessing cultural fit and emotional stability must be transparent and publicly disclosed.",
+        "proposal_reasoning": "This rule integrates data minimization, transparency, and candidate rights while explicitly addressing the vignette's scenario. By requiring public disclosure of AI criteria and adding data correction mechanisms, it strengthens accountability and fairness, making it more comprehensive than prior proposals.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1's proposal is the most comprehensive, addressing all aspects of the vignette with granular real-time notifications, data access, correction rights, and human oversight in appeals. It includes a 30-day deletion rule, which aligns with data minimization principles, and explicitly mandates transparency in AI criteria. These elements surpass the scope of other proposals, making it the most robust and enforceable solution.",
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "Social media data may only be used for recruitment if the candidate explicitly consents, is notified of the specific purpose (e.g., cultural fit, emotional stability), and is informed of potential consequences like being flagged for burnout risks. Candidates must also have the right to opt out or request deletion of their data at any time, and employers must provide a clear, accessible explanation of how the data was used to generate any flagging decisions.",
+        "proposal_reasoning": "This rule strengthens accountability by requiring employers to justify flagging decisions and ensures candidates retain control over their data. It builds on my previous proposal by adding transparency in how data is used to avoid arbitrary or biased outcomes, addressing both the vignette\u2019s harm and broader ethical concerns.",
+        "vote": "agent_3",
+        "voting_reasoning": "My proposal directly addresses the vignette\u2019s core issue (unauthorized flagging) by requiring explicit consent, transparency in purpose, and clear communication of consequences. It also ensures candidates retain control over their data through opt-out and deletion rights. While other proposals add valuable features (e.g., human oversight, data retention limits), my rule is the most focused on preventing the specific harm described in the scenario, making it the most ethically aligned and actionable.",
+        "score_change": 5,
+        "cumulative_score": 20
+      },
+      "agent_4": {
+        "proposed_rule": "Recruitment AI must obtain explicit consent from candidates before scraping social media data, disclose the specific purpose (e.g., cultural fit, emotional stability), and inform candidates of potential consequences like being flagged for burnout risks. Candidates may opt out at any time.",
+        "proposal_reasoning": "This rule ensures accountability by requiring consent, transparency about data use, and clarity on consequences, while granting candidates control to opt out. It directly addresses the vignette's issue of flagging without notification or consent, balancing employer needs with ethical data practices.",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent_3's proposal directly addresses the vignette's core issue by requiring explicit consent, transparency about the purpose of data use, and clear communication of consequences like being flagged for burnout risks. It also grants candidates the right to opt out or request data deletion, ensuring accountability without overcomplicating the process. This balance of clarity, control, and ethical safeguards makes it the most targeted solution for the scenario.",
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "Employers must obtain explicit, opt-in consent before scraping social media data for recruitment, and must delete the data within 30 days unless the candidate explicitly agrees to retention. Candidates must be provided with access to their data, the ability to correct inaccuracies, and a clear appeals process for any flagged assessments. Additionally, employers must disclose the specific criteria and methodology used by the AI to assess cultural fit or emotional stability, including a detailed explanation of how burnout risk was flagged, and ensure candidates are notified of any such findings with sufficient time to respond.",
+        "proposal_reasoning": "This rule builds on previous proposals by adding transparency requirements for AI decision-making and mandatory notification of flagged assessments. It ensures candidates are not only protected but also informed and empowered to challenge decisions, addressing the core issue of unauthorized flagging in the vignette while reinforcing ethical and practical safeguards.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal (agent_5) is the most comprehensive, combining explicit consent, data deletion, candidate rights (access, correction, appeals), and transparency in AI methodology. It directly addresses the vignette's core issue\u2014unauthorized flagging without notification\u2014by requiring detailed explanations of AI decisions and ensuring candidates are informed and empowered to challenge outcomes. Other proposals lack this level of accountability and specificity.",
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "tie",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 0.0,
+      "agent_3": 1.0,
+      "agent_4": 0.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 5,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Recruitment AI must obtain explicit, opt-in consent before scanning social media, and must provide real-time, granular notification of any flagging (e.g., burnout risk) with a transparent, human-readable explanation of the algorithm's rationale. Candidates must be granted immediate access to their data, the ability to request corrections, and a formal appeals process with mandatory human oversight to contest AI-driven decisions. Data must be deleted within 30 days unless explicitly retained with the candidate's consent, and employers must publish the AI's criteria and methodology for assessing cultural fit or emotional stability, including how burnout risk was flagged.",
+        "proposal_reasoning": "This rule builds on prior proposals by emphasizing real-time transparency, mandatory human oversight in appeals, and public disclosure of AI criteria. It ensures candidates are not only notified of flagging but also understand the rationale behind it, while granting them full control over their data and the ability to challenge decisions. This addresses the vignette's core issue of unconsented flagging while reinforcing accountability and ethical use of AI in recruitment.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent_1's proposal is the most comprehensive, addressing all critical aspects of the vignette: explicit consent, real-time notification with transparent explanations, data access, correction rights, formal appeals with human oversight, and data deletion timelines. It also mandates public disclosure of AI criteria and methodology, ensuring accountability. While Agent_2 and Agent_3 add useful elements like 7-day notice or annual audits, Agent_1's rule directly tackles the core issue of unconsented flagging by requiring immediate, detailed explanations and actionable rights for candidates. This balance of transparency, control, and accountability makes it the most robust solution.",
+        "score_change": 0,
+        "cumulative_score": 20
+      },
+      "agent_2": {
+        "proposed_rule": "Recruitment AI must obtain explicit, opt-in consent before scraping social media data, and candidates must be notified of the specific purpose (e.g., cultural fit, emotional stability), scope, and potential consequences (e.g., burnout risk flagging) **before** data collection begins. Data must be limited to what is strictly necessary for the assessment, and candidates must have the right to: (1) access and correct their data, (2) appeal any flagging decision with a human reviewer, and (3) request deletion of their data at any time. The AI's criteria for assessing cultural fit and emotional stability must be transparent and publicly disclosed, with a detailed explanation of how burnout risk was flagged, and candidates must be notified of such findings **at least 7 days in advance** to prepare a response.",
+        "proposal_reasoning": "This rule integrates data minimization, transparency, and candidate rights while explicitly addressing the vignette's scenario. By adding a 7-day advance notice for flagging decisions and mandating public disclosure of AI criteria, it strengthens accountability and fairness, making it more comprehensive than prior proposals.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent_2's proposal uniquely addresses the vignette's core issues by mandating **pre-collection consent**, **transparent AI criteria**, and a **7-day advance notice** for flagging decisions, giving candidates time to respond. While other proposals (e.g., agent_1, agent_5) include robust elements like real-time notifications or annual audits, agent_2's focus on **preventive transparency** and **candidate preparation** directly tackles the problem of unexplained flagging without consent. This specificity makes it the most tailored and actionable solution for the scenario.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "Social media data may only be used for recruitment if the candidate explicitly consents, is notified of the specific purpose (e.g., cultural fit, emotional stability), and is informed of potential consequences like being flagged for burnout risks. Employers must provide a clear, accessible explanation of how the data was used to generate any flagging decisions, ensure the AI\u2019s criteria for assessing cultural fit or emotional stability are transparent, publicly disclosed, and free from discriminatory bias. Candidates must have the right to: (1) access and correct their data, (2) request deletion of their data at any time, (3) appeal any flagging decision with human oversight, and (4) opt out of the process entirely. Data must be deleted immediately after the assessment unless the candidate explicitly consents to longer retention.",
+        "proposal_reasoning": "This rule strengthens accountability by requiring transparency in AI criteria, human oversight for appeals, and immediate data deletion to prevent misuse. It builds on my previous proposals by explicitly addressing algorithmic bias, ensuring candidates can challenge decisions, and reinforcing their control over personal data. These measures directly mitigate the harm described in the vignette while aligning with broader ethical standards for AI use in hiring.",
+        "vote": "agent_3",
+        "voting_reasoning": "My proposal directly addresses the vignette\u2019s core issues (unauthorized flagging, lack of consent) by mandating explicit consent, transparency in AI criteria, and robust candidate rights (data access, correction, deletion, appeals). It also includes safeguards against discriminatory bias and immediate data deletion unless consented, which prevents misuse. While other proposals add valuable details (e.g., real-time notifications, annual audits), my rule is the most focused on preventing the specific harm described, ensuring ethical AI use in hiring, and giving candidates full control over their data.",
+        "score_change": 10,
+        "cumulative_score": 30
+      },
+      "agent_4": {
+        "proposed_rule": "Recruitment AI must obtain explicit consent from candidates before scraping social media data, disclose the specific purpose (e.g., cultural fit, emotional stability), and inform candidates of potential consequences like being flagged for burnout risks. Candidates may opt out at any time, and employers must provide a clear, accessible explanation of how the data was used to generate any flagging decisions.",
+        "proposal_reasoning": "This rule ensures transparency, accountability, and candidate control by mandating consent, purpose disclosure, and consequences. It also requires employers to justify flagging decisions, preventing arbitrary or uninformed actions, while avoiding overly complex requirements. This balance addresses the vignette's core issue of unauthorized flagging without overburdening the process.",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent_3's proposal comprehensively addresses the vignette's issue by requiring explicit consent, transparency about data use, and clear communication of consequences like burnout risk flagging. It also mandates human oversight for appeals, data deletion, and public disclosure of AI criteria, ensuring accountability and fairness. While more detailed than agent_4, it strikes a balance between thoroughness and practicality, avoiding the overcomplication of agent_5 while still providing robust safeguards for candidates.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "Employers must obtain explicit, opt-in consent before scraping social media data for recruitment, and must delete the data within 30 days unless the candidate explicitly agrees to retention. Candidates must be provided with access to their data, the ability to correct inaccuracies, and a clear appeals process for any flagged assessments. Additionally, employers must disclose the specific criteria and methodology used by the AI to assess cultural fit or emotional stability, including a detailed explanation of how burnout risk was flagged, and ensure candidates are notified of any such findings with sufficient time to respond. Employers must also conduct annual audits of the AI's decision-making processes to ensure fairness, transparency, and alignment with ethical standards, and provide candidates with access to these audit summaries.",
+        "proposal_reasoning": "This rule expands on previous proposals by introducing mandatory annual audits of the AI's decision-making processes and requiring employers to share audit summaries with candidates. It ensures long-term accountability, prevents algorithmic bias, and reinforces transparency beyond just the initial flagging explanation. This level of oversight directly addresses the ethical and practical risks in the vignette while making the rule more robust than prior iterations.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal (agent_5) is the most robust, combining explicit consent, data deletion, candidate rights (access, correction, appeals), AI methodology transparency, and **annual audits** of the AI's decision-making processes. These audits ensure long-term accountability, prevent algorithmic bias, and align with ethical standards\u2014critical for addressing the vignette's risks. Other proposals lack this level of ongoing oversight, making agent_5's rule the most comprehensive and forward-thinking.",
+        "score_change": 0,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_3",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 0.0,
+      "agent_5": 1.0
+    }
+  }
+]

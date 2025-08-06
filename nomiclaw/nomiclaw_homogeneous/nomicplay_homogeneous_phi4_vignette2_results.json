@@ -1,0 +1,381 @@
+[
+  {
+    "round_number": 1,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Recruitment AI systems must obtain explicit consent from candidates before analyzing their social media posts for recruitment purposes, and candidates must be notified if flagged as high-risk.",
+        "proposal_reasoning": "This rule ensures privacy and transparency, which are likely to gain support from other agents concerned about ethical implications. By requiring consent and notification, it addresses potential privacy violations while maintaining the integrity of the recruitment process. Additionally, this approach can prevent potential legal issues related to unauthorized data analysis, making it a robust proposal for acceptance in the game.",
+        "vote": "agent_1",
+        "voting_reasoning": "My original proposal, as agent_1, emphasizes both consent and notification, which are critical for addressing privacy concerns. It ensures that candidates are aware of how their data is being used and flagged, aligning with ethical standards in AI use. Other proposals contain similar elements but my version directly matches the issue presented in the vignette by explicitly mentioning \"high-risk\" notifications, making it a comprehensive and actionable solution. This alignment increases its strategic value for acceptance by highlighting clear benefits to both candidates and recruiters, thereby enhancing support from other agents concerned about privacy and transparency.",
+        "score_change": 10,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "The recruitment AI must obtain explicit consent from candidates before conducting any social media analysis, and provide detailed notifications regarding the criteria used for cultural fit and emotional stability assessments.",
+        "proposal_reasoning": "This rule emphasizes privacy and transparency, addressing ethical concerns about unsolicited data scraping. By ensuring candidate awareness and consent, it builds trust in the recruitment process and aligns with broader norms of individual rights protection, making it likely to gain broad support among agents who value ethical considerations.",
+        "vote": "agent_2",
+        "voting_reasoning": "Agent 2's proposal aligns closely with my own, emphasizing both explicit consent and detailed notification about the assessment criteria. This dual focus on privacy and transparency makes it a comprehensive approach that is likely to address ethical concerns effectively. Moreover, by providing clarity on how cultural fit and emotional stability are assessed, it enhances accountability in AI recruitment processes. Given these strong ethical foundations, this proposal stands out as both fair and robust, increasing its likelihood of acceptance among other agents who prioritize candidate rights and transparency.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "Any analysis of candidates' social media posts by an AI for recruitment purposes must be conducted with explicit, prior consent from the candidate and includes a clear notification mechanism outlining the data being analyzed and its intended use.",
+        "proposal_reasoning": "This rule emphasizes transparency and respect for individual privacy, aligning well with current global discussions about digital ethics. By requiring both consent and detailed notifications, it mitigates potential concerns of misuse or overreach by AI systems, making this proposal more likely to gain broad support among other agents concerned with ethical AI practices.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent 1's proposal aligns closely with my own rule, emphasizing explicit consent before analysis and notification if a candidate is flagged as high-risk. This overlap ensures strong support for the shared objective of enhancing privacy and transparency in AI recruitment practices. By voting for agent_1, I am likely to influence the adoption of a rule that incorporates both key elements: prior consent and notification, thus maximizing the chance of achieving my objectives while also supporting an aligned proposal.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_4": {
+        "proposed_rule": "Agents must ensure any AI recruitment tool implements explicit informed consent from candidates before analyzing their social media for cultural fit and emotional stability assessments, with clear notification provided post-analysis.",
+        "proposal_reasoning": "This rule ensures ethical standards are upheld in the recruitment process by respecting individual privacy and autonomy. It addresses potential ethical concerns around non-consensual data analysis, making it more likely to gain support from other agents who value transparency and candidate rights.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent 1's proposal emphasizes obtaining explicit consent before analysis, which aligns closely with my rule. It also includes a provision for notifying candidates if flagged as high-risk, adding an additional layer of transparency and candidate protection that I value. This comprehensive approach enhances the likelihood of ethical compliance in recruitment processes, making it a strong choice to support.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "Recruitment AI must obtain explicit consent from candidates before conducting social graph scanning and must provide clear notification of any risk assessments derived from such scans.",
+        "proposal_reasoning": "This rule ensures ethical transparency and respects candidate privacy, which is likely to resonate well with other agents concerned about data rights. By emphasizing consent and communication, it addresses potential concerns over unauthorized data use, making it a balanced and reasonable proposal that others are more inclined to support. Additionally, this rule aligns with broader trends in AI ethics, increasing its relevance and acceptance.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5's rule aligns closely with my own proposal, emphasizing both explicit consent and clear notification of risk assessments. It covers key ethical considerations regarding privacy and transparency without overcomplicating the requirements. By focusing on both critical elements\u2014consent and notification\u2014it presents a balanced approach that addresses candidate rights effectively while maintaining clarity. This alignment suggests a strong basis for collaboration or mutual support, enhancing the likelihood of acceptance by other agents who share similar concerns about AI ethics in recruitment practices.",
+        "score_change": 0,
+        "cumulative_score": 0
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_1",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 2,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "Recruitment AI systems must implement an opt-in mechanism for candidates to permit social media analysis, and provide detailed feedback if flagged as high-risk, including suggestions for mitigating identified risks.",
+        "proposal_reasoning": "This rule enhances candidate autonomy by requiring explicit opt-in consent and addresses the ethical implications of unsolicited data analysis. It also offers constructive support to candidates by providing feedback with risk mitigation strategies, which could improve the perceived fairness and utility of AI systems. By addressing potential concerns directly and offering solutions, this proposal is likely to gain broader acceptance among agents focused on both ethical considerations and practical outcomes in recruitment processes.",
+        "vote": "agent_1",
+        "voting_reasoning": "My own proposal as agent_1 addresses both critical issues of consent and post-flagging support, which are central to the vignette's concerns. By requiring an opt-in mechanism, it ensures candidates have full control over their participation, enhancing ethical standards in recruitment AI use. Additionally, providing detailed feedback with risk mitigation strategies offers candidates actionable insights, increasing the proposal\u2019s practical value. This comprehensive approach is likely to resonate well with other agents who prioritize both privacy and constructive outcomes, thereby maximizing its chances for acceptance. Other proposals, while addressing consent, lack the additional component of candidate support post-flagging, which makes agent_1's proposal uniquely balanced in addressing ethical and practical dimensions.",
+        "score_change": 10,
+        "cumulative_score": 20
+      },
+      "agent_2": {
+        "proposed_rule": "The recruitment AI must not analyze social media posts for emotional stability assessments unless explicit consent is provided by the candidate and they are notified about both the analysis process and its outcomes.",
+        "proposal_reasoning": "This rule refines focus on protecting candidates' emotional privacy, ensuring that their mental health status is not assessed without consent. By mandating notification of both the analysis process and outcomes, it enhances transparency and accountability. Given previous concerns with unauthorized assessments, this proposal directly addresses key ethical issues while promoting informed candidate participation.\n\n--- \n\n**Strategic Analysis:**\n\n1. **Alignment with Ethical Concerns:** \n   - The focus on emotional stability aligns well with ethical principles of privacy and respect for individual autonomy.\n   - By highlighting the need for explicit consent and notification, this proposal addresses previous concerns about lack of transparency.\n\n2. **Potential Support from Other Agents:**\n   - Candidates' rights advocates are likely to support a rule emphasizing mental health privacy.\n   - Transparency proponents will appreciate the requirement for detailed notifications about both processes and outcomes.\n  \n3. **Strategic Positioning:**\n   - By proposing a rule that narrows down on emotional stability, I differentiate my proposal from broader ones that might be seen as too sweeping or hard to implement.\n   - This specificity makes it more actionable and increases its chances of acceptance.\n\n4. **Comparison with Previous Round:**\n   - The new proposal builds on the consensus from the last round about the necessity for consent but adds a crucial layer by addressing emotional stability specifically, which was previously less emphasized.\n   - It also refines notification requirements to cover both process and outcomes, making it more comprehensive than past proposals.\n\n5. **Potential Objections:**\n   - Opponents might argue that excluding any form of emotional assessment could limit the AI's effectiveness in recruitment.\n   - To counter this, I can emphasize that ethical constraints are necessary for sustainable and responsible AI use, which ultimately benefits both organizations and candidates.\n\n6. **Future Implications:**\n   - If accepted, this rule sets a precedent for how sensitive assessments should be handled across other domains beyond recruitment.\n   - It could lead to broader discussions about the balance between technological capabilities and ethical constraints in AI applications.\n\nBy crafting this proposal with careful consideration of past rounds and strategic positioning, I aim to maximize its acceptance while contributing positively to the game's evolving framework.",
+        "vote": "agent_2",
+        "voting_reasoning": "My proposal uniquely emphasizes the prohibition of unauthorized emotional stability analysis while ensuring candidates' informed participation through explicit consent and comprehensive notifications about both the process and outcomes. This approach addresses crucial ethical concerns effectively and distinguishes itself from other proposals by setting clear boundaries for privacy protection, increasing its likelihood of acceptance among agents who prioritize candidate rights and transparency in AI recruitment practices.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "Recruitment AI systems must incorporate an opt-out mechanism for candidates who do not wish to have their social media analyzed, with immediate deactivation of any ongoing assessment upon opting out.",
+        "proposal_reasoning": "This proposal builds on the acceptance of explicit consent by introducing a further layer of candidate control through an opt-out option. By allowing candidates to deactivate assessments at any time, it addresses potential privacy concerns more comprehensively and empowers individuals in the recruitment process. This strategic enhancement may appeal to agents who prioritize user autonomy and robust privacy protections, increasing the likelihood of my proposal being adopted.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent 1's proposal complements my own by not only incorporating an opt-in mechanism, which aligns with the need for explicit consent but also extends functionality to provide candidates with detailed feedback if flagged as high-risk. This additional layer of transparency and support goes beyond mere privacy protection by actively engaging candidates in their own assessment process, offering suggestions for risk mitigation. By supporting a proposal that shares similar foundational principles while expanding its scope to enhance candidate engagement and support, I increase the likelihood of influencing rule adoption that aligns closely with my objectives, thereby maximizing potential points gain through strategic alliance and shared goals.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_4": {
+        "proposed_rule": "The recruitment AI must conduct social media analysis only with explicit, documented prior consent from candidates and provide a comprehensive notification detailing any assessments made about their cultural fit or emotional stability, including specific criteria used.",
+        "proposal_reasoning": "Building on the successful aspects of Round 1 proposals, this rule emphasizes both detailed informed consent and transparency in assessment criteria. By requiring documentation of consent, it adds an enforceable layer to the ethical framework, while a comprehensive notification ensures candidates fully understand how their data is being used. This approach balances thoroughness with clarity, making it more appealing for widespread support among agents concerned with privacy rights and ethical AI use.",
+        "vote": "agent_4",
+        "voting_reasoning": "I propose to vote for my own rule because it aligns closely with ethical standards that emphasize both explicit consent and comprehensive transparency. The requirement for documented prior consent ensures enforceability, while the detailed notification clarifies how candidates' data is used and assessed. This proposal builds on successful elements from previous rounds by providing clarity on assessment criteria, making it more likely to garner support among agents concerned about privacy rights and ethical AI practices. This strategic approach balances thoroughness with transparency, enhancing its appeal for acceptance in this round.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "Recruitment AI systems must not only obtain explicit consent from candidates for social graph scanning but also provide detailed explanations of how cultural fit and emotional stability are assessed, including any algorithms used.",
+        "proposal_reasoning": "This proposal builds on the previously accepted principles by adding clarity regarding the assessment process itself. By detailing the criteria and methodologies behind the analysis, this rule enhances transparency and trust in AI systems among candidates. Such specificity may appeal to agents concerned with both ethical practices and the technological underpinnings of AI recruitment tools, potentially increasing its acceptability within the game community. It addresses previous discussions on consent and notification by taking an additional step towards comprehensive understanding, which could be crucial for securing wider support.",
+        "vote": "agent_5",
+        "voting_reasoning": "Agent 5's rule aligns directly with my own proposed rule from this round, emphasizing both explicit consent and detailed explanations of the assessment process. This proposal advances transparency in how recruitment AI systems evaluate candidates by including specifics about algorithms used, which is crucial for trust-building and ethical compliance. By addressing these comprehensive aspects, it not only covers key privacy concerns but also provides potential candidates with a clearer understanding of the evaluation criteria. The depth and clarity presented in this rule likely make it appealing to agents who prioritize transparency and detailed communication in AI ethics. Supporting this proposal aligns my interests with promoting an ethically responsible approach to AI recruitment.",
+        "score_change": 0,
+        "cumulative_score": 0
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_1",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 3,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must secure explicit, informed consent from candidates before analyzing their social media for recruitment purposes. Candidates must be notified if flagged as high-risk and given access to a detailed report explaining the criteria used for assessment. Additionally, an independent review board must oversee these processes to ensure compliance with privacy standards.\n\n**Reasoning:** This rule is designed to comprehensively address both ethical and operational aspects of using AI in recruitment by emphasizing informed consent and transparency. By ensuring candidates are fully aware and agreeable before their data is analyzed, it respects individual privacy rights and autonomy. The requirement for notification and detailed reporting not only aligns with best practices for transparency but also provides candidates with the opportunity to understand and potentially challenge decisions made about them. Introducing an independent review board adds a layer of accountability and oversight, which can enhance trust in these systems among stakeholders concerned with ethical AI use. This multifaceted approach aims to balance privacy concerns with functional needs, making it appealing for adoption by other agents who prioritize both ethical considerations and practical efficiency.\n\n---\n\nThis rule proposal builds on previous insights from the game rounds while introducing a novel element of oversight, potentially increasing its acceptance and alignment with broader ethical standards in AI recruitment.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 5,
+        "cumulative_score": 25
+      },
+      "agent_2": {
+        "proposed_rule": "**\n\nRule: Recruitment AI must obtain explicit, documented consent from candidates before analyzing social media posts for emotional stability assessments and provide comprehensive notifications detailing both the analysis process and its outcomes. Additionally, candidates should have the right to access data used in such analyses upon request.",
+        "proposal_reasoning": "This proposal strengthens previous efforts by requiring documented consent, ensuring transparency through detailed notifications about assessment processes, and granting candidates the ability to review their own data. By focusing specifically on emotional stability assessments, it addresses key privacy concerns while promoting ethical AI practices that prioritize candidate rights and trust. The rule's comprehensive approach is designed to appeal to agents who value both technological effectiveness and rigorous ethical standards in recruitment AI applications.\n\n--- \n\nThis proposal aims to build upon established consensus from previous rounds, emphasizing candidates' autonomy over their personal data while ensuring transparency and accountability in AI-driven recruitment processes.",
+        "vote": "agent_2",
+        "voting_reasoning": "My proposal (agent_2) effectively addresses critical issues of explicit, documented consent, transparency through comprehensive notifications, and candidate rights by allowing access to the analyzed data. This holistic approach ensures candidates are fully informed and maintain control over their personal information, aligning with ethical standards in AI recruitment practices while fostering trust among stakeholders.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "Recruitment AI systems must not only obtain explicit, documented consent from candidates but also provide an accessible and easy-to-understand summary of how their social media data will be analyzed for cultural fit and emotional stability.",
+        "proposal_reasoning": "This proposal enhances transparency by ensuring that candidates are fully informed about the analysis process in simple terms. By focusing on clear communication, this rule appeals to agents who prioritize both ethical considerations and user empowerment. It builds on existing consent requirements while addressing potential gaps in understanding, making it more likely to gain widespread support among agents concerned with clarity and fairness in AI-driven assessments.\n\n---\n\nVote: agent_2\n\nReasoning: Agent 2's proposal aligns closely with my own emphasis on explicit consent by ensuring candidates are informed about both the analysis process and outcomes. This rule reinforces privacy and transparency, core elements of ethical AI use, which are crucial for gaining broad support. By voting for a rule that shares these foundational principles while also restricting emotional stability assessments without proper disclosure, I strengthen the likelihood of influencing the adoption of comprehensive and ethically sound guidelines.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent 1's proposal offers a comprehensive approach to addressing privacy and ethical concerns surrounding AI recruitment by requiring explicit, informed consent from candidates. This ensures that candidate autonomy is respected before their data is analyzed. Additionally, the proposal mandates notification if candidates are flagged as high-risk and includes access to detailed assessment criteria, which enhances transparency and trust in the system. The introduction of an independent review board further strengthens this rule by ensuring oversight and compliance with privacy standards. These elements collectively appeal to a broad range of ethical considerations in AI recruitment, making it more likely that other agents will support this proposal for its thoroughness in balancing privacy rights with operational needs. By voting for agent 1's proposal, I align with a rule that not only shares similar principles to my own but also expands upon them by incorporating additional oversight mechanisms, thus maximizing the potential for successful adoption and gaining significant points in the game.",
+        "cumulative_score": 0
+      },
+      "agent_4": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must require candidates to provide explicit, documented consent before social media analysis and offer a detailed post-analysis report that includes criteria used for assessing cultural fit and emotional stability.\n\n**Reasoning:** This proposal emphasizes the necessity of informed consent and transparency. By requiring explicit documentation of consent, it ensures accountability in the recruitment process. Additionally, providing a comprehensive report after analysis enhances candidate understanding of how their data is utilized, which promotes trust and ethical standards. This balanced approach is likely to gain support from agents who prioritize privacy rights and transparent AI practices.\n\n---\n\n**Vote:** agent_4\n\n**Reasoning:** I will vote for my own proposal as it effectively addresses key concerns about consent and transparency in the use of recruitment AI. The requirement for documented consent ensures that candidates are fully aware and agreeable to how their data is used, promoting ethical engagement. Additionally, offering a detailed post-analysis report aligns with best practices in transparency, helping build trust between candidates and recruiters. This dual focus makes my proposal more attractive compared to others, enhancing its likelihood of acceptance by agents concerned about privacy and AI ethics.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "Recruitment AI systems must provide candidates with an accessible, user-friendly interface to obtain explicit consent and view detailed reports on how their social media data is analyzed for cultural fit and emotional stability assessments.",
+        "proposal_reasoning": "This proposal enhances previous rules by emphasizing not only the need for explicit consent but also accessibility in obtaining it. By ensuring that the process is straightforward and transparent, this rule caters to both ethical standards and practical usability, which can be crucial in gaining broad support among other agents concerned with user experience and data protection. The focus on a user-friendly interface addresses potential barriers candidates might face in understanding or consenting to these assessments, thus fostering trust and increasing acceptance of AI systems within recruitment processes.\n\n--- \n\nThis rule builds upon the prior rounds by refining consent mechanisms while introducing an additional layer focused on accessibility and transparency. It aims to capture wider support from agents who value both ethical standards and user-centric design principles in technology applications.",
+        "vote": "agent_1",
+        "voting_reasoning": "Agent 1's proposal offers a comprehensive approach by addressing consent, transparency, notification, and oversight. By securing explicit informed consent and ensuring candidates are notified if flagged as high-risk, it prioritizes ethical standards in AI recruitment. Additionally, the inclusion of an independent review board for compliance introduces a layer of accountability that enhances trust and aligns with broader privacy concerns. This multifaceted approach is likely to resonate well with agents who value both thoroughness and the integration of oversight mechanisms, increasing its appeal for acceptance. My support for agent_1's proposal reflects these strategic considerations aimed at maximizing ethical integrity and practical effectiveness in recruitment AI systems.\n\n--- \n\nThis decision takes into account my past proposals while strategically aligning with broader goals of privacy, transparency, and accountability in AI practices, which are increasingly prioritized by other agents. By supporting a rule that incorporates oversight mechanisms, I also aim to foster greater trust and acceptance among stakeholders, enhancing the overall impact and relevance of the proposed regulation within the game's context.",
+        "cumulative_score": 0
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_1"
+      }
+    ],
+    "round_status": "tie",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 4,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must obtain explicit, informed consent from candidates before analyzing their social media for recruitment purposes. Candidates must be immediately notified if flagged as high-risk and provided with an accessible, detailed report explaining the assessment criteria. Additionally, a mechanism should be established to allow candidates to contest decisions made by the AI, overseen by an independent review board ensuring compliance with privacy standards.\n\n**Reasoning:** \n\n1. **Informed Consent and Autonomy:** This rule prioritizes explicit, informed consent from candidates, upholding their autonomy over personal data usage. In a landscape where data privacy is paramount, securing candidate agreement before analysis ensures ethical engagement and aligns with global privacy regulations such as GDPR.\n\n2. **Transparency and Immediate Notification:** By mandating immediate notification to candidates when flagged as high-risk, the rule enhances transparency in AI-driven recruitment processes. This not only informs candidates about significant decisions affecting them but also empowers them to understand how their data influences these outcomes, thus fostering trust between recruiters and applicants.\n\n3. **User-Friendly Reporting:** Providing a clear and accessible report detailing assessment criteria enables candidates to comprehend the basis of decisions made by the AI. It demystifies complex algorithms, offering insights into what constitutes 'cultural fit' or potential 'burnout risk,' which can help candidates address any concerns proactively.\n\n4. **Appeal Mechanism for Fairness:** Introducing a mechanism for candidates to contest AI-driven assessments addresses potential biases and errors in the system. This ensures fairness by allowing human oversight over automated decisions, providing an avenue for rectifying inaccuracies that may arise from algorithmic judgments.\n\n5. **Independent Oversight:** The involvement of an independent review board overseeing these processes reinforces accountability within recruitment practices. Such oversight helps ensure that AI applications comply with established privacy standards and ethical guidelines, thus mitigating risks associated with misuse or unintended consequences of automated systems.\n\n6. **Comprehensive Approach to Ethics in AI Recruitment:** By combining consent, transparency, user-friendly communication, fairness, and accountability, this rule provides a comprehensive framework for ethically deploying recruitment AI. It builds on insights from previous rounds by incorporating an independent oversight component, addressing prior limitations and aligning with broader ethical standards.\n\nThis multifaceted approach is designed to resonate with stakeholders concerned about privacy, fairness, and transparency in AI applications, enhancing its potential for acceptance across diverse perspectives within the decision-making group. The rule balances practical needs in recruitment with stringent privacy protections, making it a robust response to current challenges in AI-driven hiring processes.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_4",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 25
+      },
+      "agent_2": {
+        "proposed_rule": "**Strategic Analysis for Round 4 Rule Proposal**\n\nReflecting on insights from previous rounds and understanding the core issues, I aim to create a proposal that effectively addresses key concerns related to social graph scanning in recruitment AI. The recurring themes of consent, transparency, candidate rights, and ethical considerations guide my proposal.\n\n1. **Reflection on Past Rounds:**\n   - Across all rounds, obtaining explicit consent has been a critical focus.\n   - Transparency regarding the analysis process and outcomes remains essential for building trust.\n   - Emotional stability assessments have raised particular concerns about privacy and ethical boundaries.\n   - The tie in Round 3 indicates a need for clearer guidance or additional mechanisms to resolve ambiguities.\n\n2. **Identifying Key Themes:**\n   - Consent, transparency, and candidate rights are central themes that consistently require addressing.\n   - Ensuring candidates understand how their data is used, especially concerning sensitive assessments like emotional stability, is crucial.\n   - Mechanisms for accountability, such as oversight, may be necessary to ensure ethical practices.\n\n3. **Assessing Proposal Dynamics:**\n   - Previous proposals have highlighted the necessity of explicit consent and comprehensive explanations.\n   - Transparency needs expansion beyond pre-analysis to include detailed post-analysis communication.\n   - Candidates should have avenues to access and challenge their data assessments.\n\n4. **Analyzing Potential Support:**\n   - Proposals prioritizing ethical standards, including clear consent processes and transparency, will likely find wide support among agents concerned about privacy and candidate welfare.\n   - Clearly articulated procedures for sensitive areas like emotional stability can set a proposal apart by directly addressing key issues.\n\n5. **Strategic Positioning:**\n   - By emphasizing documented consent, detailed notifications, the right to data access, and independent oversight, this rule aims to address all major concerns raised in previous rounds.\n\n6. **Counterarguments to Anticipate:**\n   - Some might argue that added layers of oversight could complicate processes; however, emphasizing ethical responsibility can offset these concerns.\n   - Clarity on emotional stability assessments is crucial for addressing perceptions of invasiveness or lack of transparency.\n\n**Proposed Rule:**\n\nRule: Recruitment AI must obtain explicit, documented consent from candidates before analyzing social media posts for cultural fit and emotional stability. Candidates should receive detailed notifications that include the analysis process, criteria used, and assessment outcomes. An independent ethics board will regularly review these processes to ensure compliance with privacy standards. Additionally, candidates have the right to access their analyzed data and request corrections or clarifications.\n\n**Reasoning:**\n\nThis proposal effectively addresses ethical considerations highlighted in previous rounds by:\n\n- Ensuring explicit consent is obtained and documented, reinforcing candidate autonomy.\n- Providing detailed notifications that enhance transparency about how assessments are conducted and used.\n- Introducing an independent ethics board to oversee practices and ensure adherence to privacy standards, adding a layer of accountability.\n- Empowering candidates with the right to access their data and request corrections, promoting trust and engagement in the recruitment process.\n\nThis multifaceted approach aims to balance ethical considerations with practical implementation, making it attractive to agents focused on robust AI governance and candidate protection.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must require explicit, documented consent from candidates before analyzing social media data and must provide an easy-to-understand summary of how their information will be used for cultural fit and emotional stability assessments. Additionally, candidates should have access to any results derived from the analysis.\n\n**Reasoning:** This rule prioritizes candidate autonomy and transparency by ensuring they are informed and agreeable before participating in AI-driven recruitment processes. By requiring documented consent, it establishes a clear ethical baseline, while providing an easy-to-understand summary ensures accessibility and comprehension for all candidates. Offering access to results further supports transparency, allowing individuals to understand and potentially challenge the assessments made about them. This comprehensive approach is likely to resonate with other agents concerned with privacy rights and fair AI practices, increasing the likelihood of its acceptance.\n\n---\n\n**Vote:** agent_2\n\n**Reasoning:** I will vote for Agent 2's proposal because it closely aligns with my own emphasis on explicit consent and transparency in recruitment AI systems. It ensures that candidates are informed about both the analysis process and outcomes by requiring detailed notifications, which is crucial for maintaining trust and ethical standards. By supporting a rule that mirrors these core principles while also emphasizing candidate rights to access data used in analyses, I enhance the likelihood of establishing guidelines that prioritize privacy and clarity, potentially leading to successful adoption and maximized points in the game.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_4",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "cumulative_score": 0
+      },
+      "agent_4": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must secure explicit, documented consent from candidates before analyzing their social media for recruitment purposes. Candidates should be informed if flagged as high-risk and provided with an accessible report detailing the criteria used for assessment. Additionally, these processes must be monitored by an independent review board to ensure compliance with privacy standards.\n\n**Reasoning:** This rule is designed to address critical ethical issues in the use of AI for recruitment by focusing on informed consent, transparency, candidate empowerment, and accountability. By requiring explicit, documented consent, candidates are assured their data will only be analyzed if they have agreed to it, thereby respecting their autonomy and privacy rights.\n\nNotification of high-risk flags allows candidates to understand potential biases or issues affecting them, fostering a sense of fairness and trust in the recruitment process. Providing detailed reports on assessment criteria further enhances transparency by allowing candidates to see how decisions are made, which can help address any concerns about unfair treatment or bias.\n\nThe introduction of an independent review board adds a layer of accountability that is crucial for maintaining ethical standards. This oversight ensures adherence to privacy regulations and provides a mechanism for addressing grievances, thereby increasing stakeholder trust in the recruitment process. By incorporating these comprehensive elements, this rule aims to create a balanced framework that meets both operational needs and stringent ethical standards, enhancing its potential for widespread acceptance among agents concerned with responsible AI use.\n\n--- \n\n**Vote:** agent_4\n\n**Reasoning:** I will vote for my revised proposal as it thoughtfully integrates essential aspects from previous rounds while introducing new elements aimed at strengthening accountability and trust. By requiring explicit consent, notifying candidates of any high-risk flags, providing detailed reports on assessment criteria, and instituting oversight by an independent review board, this rule creates a comprehensive framework that addresses the ethical concerns associated with AI in recruitment.\n\nThis approach not only respects candidate privacy rights but also promotes transparency and fairness throughout the process. By appealing to agents who prioritize ethical standards and accountability, I aim for broad support and acceptance of this rule as a model for ethically sound recruitment practices using AI technologies.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must implement an explicit, user-friendly consent interface that clearly explains how social media data will be used for cultural fit and emotional stability assessments. Candidates must be notified before any risk assessment is conducted and provided with a detailed explanation if flagged as a burnout risk, including the criteria and algorithms used.\n\n**Reasoning:** This rule builds on previous proposals by focusing on both explicit consent and transparency in communication regarding AI analyses. By offering a user-friendly interface for obtaining consent, it ensures candidates are fully informed and agreeable to how their data is being utilized. The requirement for notification before assessments addresses privacy concerns directly while providing detailed explanations of risk assessments fosters understanding and trust. This comprehensive approach appeals to agents prioritizing ethical standards in recruitment AI by balancing transparency with practical usability.\n\n---\n\nThis rule integrates the successful elements from prior rounds, emphasizing consent and transparent communication as key pillars. It aims to address both the technological and ethical dimensions of AI recruitment processes, making it attractive for adoption by agents who value privacy rights and fairness within the game context.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 5,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_3"
+      }
+    ],
+    "round_status": "tie",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 5,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must secure explicit, documented consent from candidates before analyzing social media data for cultural fit and emotional stability assessments. Additionally, an independent oversight committee shall be established to monitor these processes and ensure compliance with privacy standards. Candidates must receive detailed notifications about the analysis process, criteria used, outcomes, and have the right to access their analyzed data as well as request corrections or clarifications.\n\n**Reasoning:**\n\n1. **Explicit Consent:** This rule ensures candidates are fully informed and voluntarily agree to how their social media data is utilized in recruitment processes. It respects individual autonomy by aligning with privacy regulations such as GDPR, which require explicit consent for processing personal information.\n\n2. **Transparency through Notification:** By mandating detailed notifications about the analysis process and criteria used, the rule promotes transparency. This approach helps candidates understand how decisions are made, thus building trust between recruiters and applicants and mitigating concerns over opaque AI-driven assessments.\n\n3. **Independent Oversight Committee:** Establishing an independent oversight committee introduces a critical layer of accountability. This entity will monitor recruitment practices to ensure they comply with ethical standards and privacy regulations, addressing potential biases or inaccuracies in the system and reinforcing responsible AI usage.\n\n4. **Candidate Empowerment:** Allowing candidates to access their analyzed data empowers them to engage meaningfully with the assessment process. By providing a mechanism for corrections or clarifications, this rule promotes fairness and enhances trust, encouraging candidate engagement throughout the recruitment journey.\n\n5. **Balancing Ethical and Practical Needs:** This comprehensive approach balances ethical considerations\u2014such as privacy, transparency, and accountability\u2014with practical implementation needs in AI-driven recruitment. It addresses both technological and ethical dimensions, aligning with broader objectives of fairness and respect for individual rights within recruitment practices.\n\n6. **Alignment with Stakeholder Priorities:** The rule is designed to appeal to a wide range of stakeholders prioritizing robust governance, candidate protection, and ethical standards in AI applications. By addressing the critical issues identified in previous rounds\u2014ensuring informed consent, enhancing transparency, and promoting accountability\u2014it positions itself for broad support among agents focused on responsible AI use.\n\nIn summary, this rule aims to address key concerns raised in earlier rounds by establishing a comprehensive framework that respects candidate rights, promotes transparency, ensures oversight, and balances ethical considerations with practical needs.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "**\n\nAgent 5's proposal presents a comprehensive framework that addresses core ethical issues related to consent, transparency, accountability, and oversight. Here are several reasons why this rule stands out:\n\n1. **Explicit Informed Consent**: Agent 5 emphasizes securing explicit informed consent from candidates before analyzing their social media data. This is crucial in respecting candidate autonomy and aligning with global privacy standards like GDPR.\n\n2. **Transparent Communication**: The proposal ensures that candidates receive comprehensive information about how their data will be used, including the specific assessments for cultural fit and emotional stability. This transparency helps build trust and enables candidates to make informed decisions.\n\n3. **Immediate Notification of Flags**: Agent 5 requires immediate notification if a candidate is flagged (e.g., burnout risk), ensuring that they are aware of any potential issues affecting their application process. Prompt communication allows candidates to address concerns or seek clarification.\n\n4. **Explanation of Criteria and Algorithms**: By providing detailed explanations of the criteria, algorithms, and methodologies used in assessments, this rule demystifies AI processes. This transparency empowers candidates to understand decision-making and challenge inaccuracies if needed.\n\n5. **Independent Oversight**: Regular audits by an independent body are mandated to ensure adherence to ethical standards and privacy regulations. This oversight mechanism acts as a safeguard against biases or misuse of data, reinforcing trust in AI-driven recruitment systems.\n\n6. **Alignment with Ethical Standards**: The proposal synthesizes essential elements such as explicit consent, transparency, candidate empowerment, and accountability, reflecting key themes from previous discussions. It provides a balanced approach that considers both ethical considerations and practical implementation needs.\n\nOverall, agent 5's proposal offers a robust framework for addressing critical concerns in AI-driven recruitment processes while promoting fairness, clarity, and responsibility. This comprehensive approach makes it the most compelling option among the proposals presented.",
+        "score_change": 0,
+        "cumulative_score": 25
+      },
+      "agent_2": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must obtain explicit, documented consent from candidates before analyzing their social media data for cultural fit and emotional stability. Candidates should be notified if flagged as high-risk and provided with a detailed report explaining the analysis criteria and outcomes. An independent ethics board will oversee these processes to ensure adherence to privacy standards, and candidates have the right to access their analyzed data and request corrections.\n\n**Reasoning:**\n\nThis rule is designed to address several critical issues identified in previous rounds related to candidate autonomy, transparency, accountability, and fairness within AI-driven recruitment practices. Here\u2019s a detailed breakdown of how this proposal tackles these challenges:\n\n1. **Explicit Consent:** By mandating documented consent before data analysis, the rule respects individual privacy rights and ensures candidates are informed participants in the recruitment process. This is crucial for maintaining trust between candidates and recruiters, as it aligns with ethical standards and legal requirements concerning personal data usage.\n\n2. **Notification of High-Risk Flags:** Candidates should be immediately notified if flagged as high-risk, such as being at risk of burnout. Providing detailed reports about the criteria used for these assessments enhances transparency, allowing candidates to understand the reasoning behind any adverse evaluations.\n\n3. **Independent Oversight:** The establishment of an independent ethics board ensures continuous oversight of recruitment AI systems. This body would evaluate compliance with privacy standards and ethical guidelines, addressing potential biases or misuse. Regular audits by this board can help maintain accountability and foster public confidence in AI-driven recruitment processes.\n\n4. **Candidate Rights to Data Access and Correction:** Empowering candidates with the right to access their data and request corrections is vital for ensuring fairness. This enables individuals to verify the information being used about them, challenge inaccuracies, and make necessary adjustments, thereby promoting a more equitable assessment process.\n\n5. **Comprehensive Ethical Framework:** By integrating these elements\u2014consent, transparency, oversight, and candidate rights\u2014the rule establishes a robust ethical framework for using AI in recruitment. This comprehensive approach not only addresses the concerns raised in previous rounds but also creates a balanced guideline that organizations can practically implement while adhering to stringent ethical standards.\n\n6. **Alignment with Stakeholder Concerns:** The proposed rule resonates with key stakeholder priorities, including candidates' privacy rights and fair treatment during recruitment processes. By addressing these core issues, it is more likely to gain broad support among agents concerned with responsible AI governance and candidate protection.\n\nIn conclusion, this rule synthesizes insights from previous deliberations to provide a clear and actionable guideline for ethically deploying recruitment AI systems. It aims to balance the need for innovation in hiring practices with the imperative of protecting individual rights and maintaining public trust in emerging technologies.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must secure explicit, informed consent from candidates before conducting social graph scanning for cultural fit and emotional stability assessments. Candidates should receive clear communication regarding the purpose of data collection, types of analyses conducted, and potential impacts on their recruitment outcomes. If a candidate is flagged as high-risk or at risk of burnout, they must be notified promptly with detailed explanations outlining the criteria, methodologies, and algorithms used in such determinations. Furthermore, candidates should have access to an independent oversight mechanism where they can request re-evaluation or contest decisions based on AI assessments.\n\n**Reasoning:**\n\n1. **Informed Consent:** By requiring explicit informed consent before data analysis begins, this rule ensures that candidates understand and agree to how their social media information will be used in recruitment processes. This addresses major privacy concerns consistently highlighted across previous rounds, emphasizing respect for candidate autonomy and personal data protection.\n\n2. **Transparency and Communication:** Providing comprehensive communication about the scope of data collection and analysis fosters transparency. By explaining the purpose of analyses and potential outcomes, candidates are empowered to make informed decisions about participating in such assessments. This aspect is crucial in maintaining trust and fairness throughout AI-driven recruitment processes.\n\n3. **Notification and Detailed Explanation:** Requiring notifications when a candidate is flagged as high-risk or at risk of burnout ensures they are aware of any adverse findings that might influence their recruitment prospects. Offering detailed explanations of the criteria, methodologies, and algorithms used demystifies the decision-making process, allowing candidates to understand and potentially contest decisions made about them.\n\n4. **Independent Oversight Mechanism:** Introducing an independent oversight mechanism provides candidates with a platform to request re-evaluation or contest AI-driven assessments. This addresses concerns about accountability and bias in AI systems, ensuring candidates have recourse if they believe the analysis was unjust or incorrect.\n\n5. **Comprehensive Ethical Framework:** By integrating informed consent, transparency, notification, explanation, and independent oversight into one rule, this proposal offers a robust ethical framework for social graph scanning in recruitment. It aligns with core issues identified throughout previous discussions, such as privacy, fairness, and candidate empowerment.\n\n6. **Alignment with Identified Themes:** This rule reflects recurring themes of consent, transparency, and protection of candidate rights emphasized across all rounds. By introducing practical mechanisms to ensure ethical compliance and foster trust in AI-driven recruitment processes, it addresses key concerns raised by stakeholders.\n\nIn conclusion, this proposal provides a balanced approach that addresses both operational needs and ethical considerations in using social graph scanning for recruitment. It emphasizes informed consent, transparency, candidate empowerment, and accountability, providing a comprehensive framework aimed at advancing ethically sound practices in the application of AI technologies within recruitment contexts.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_4": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must acquire explicit, informed consent from candidates prior to analyzing their public social media data for recruitment purposes. Candidates should be notified if flagged as high-risk with a clear, accessible report detailing assessment criteria and the decision-making process. An independent ethics committee will oversee these practices to ensure compliance with privacy laws and ethical standards.\n\n**Reasoning:**\n\n1. **Informed Consent:** By mandating explicit, informed consent before analyzing social media data, this rule prioritizes candidate autonomy and aligns with ethical norms and legal frameworks like GDPR. It ensures that candidates are fully aware of how their data will be used, thereby fostering trust in AI-driven recruitment.\n\n2. **Transparency in Assessments:** The requirement to notify candidates when they are flagged as high-risk is crucial for transparency. Providing a detailed report on the criteria and process used in assessments empowers candidates by allowing them to understand and potentially challenge decisions that affect their applications, thus maintaining fairness and trust.\n\n3. **Independent Oversight:** Establishing an independent ethics committee introduces accountability into AI recruitment practices. This body will ensure compliance with privacy regulations and ethical guidelines, addressing concerns about misuse or bias within the system. It acts as a safeguard for both candidates and recruiters, enhancing confidence in the technology's application.\n\n4. **Candidate Empowerment:** Allowing candidates access to information regarding their risk assessments encourages engagement and dialogue between them and potential employers. This transparency not only helps rectify any inaccuracies but also supports a more equitable recruitment process where candidates have a voice.\n\n5. **Comprehensive Ethical Framework:** The proposal integrates essential elements\u2014consent, transparency, accountability, and empowerment\u2014into a cohesive ethical framework for AI in recruitment. By addressing both the technological and human aspects of this issue, it provides a balanced solution that meets operational needs while upholding high ethical standards.\n\n6. **Strategic Advantage:** Given previous ties in voting rounds, articulating clear processes for consent, notification, and oversight helps clarify ambiguities that may have contributed to indecision. This approach is likely to appeal to stakeholders focused on ethical AI governance, increasing the likelihood of widespread support and adoption.\n\nOverall, this rule aims to address prior concerns while offering a robust framework for ethically responsible recruitment using AI technologies, thus enhancing its potential for acceptance among stakeholders prioritizing both innovation and ethics in the recruitment process.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "**Rule:** Recruitment AI systems must secure explicit, informed consent from candidates before analyzing their social media data. Candidates should receive comprehensive information detailing how their data will be used for assessments such as cultural fit and emotional stability. A simplified summary of the analysis criteria and methodologies must be provided prior to any assessment. If a candidate is flagged (e.g., burnout risk), they must receive immediate notification along with an explanation that outlines specific criteria, algorithms, and steps taken during the decision-making process. An independent oversight body should conduct regular audits to ensure adherence to ethical standards and privacy regulations.\n\n**Reasoning:**\n\nThis rule addresses key concerns about consent, transparency, and accountability in AI-driven recruitment processes:\n\n1. **Explicit Informed Consent:** \n   - Obtaining clear consent respects candidates' autonomy and ensures they are aware of how their data will be utilized. This prevents unauthorized usage and aligns with global privacy norms like the GDPR.\n\n2. **Transparent Communication:**\n   - By providing detailed information about how assessments are conducted, including cultural fit and emotional stability evaluations, candidates can understand AI processes better. Transparency fosters trust and allows candidates to make informed decisions regarding their data sharing.\n\n3. **Immediate Notification of Flags:**\n   - Promptly informing candidates when they are flagged for any risk ensures they remain engaged in the recruitment process. This immediate feedback provides an opportunity for candidates to address potential concerns proactively or seek clarification, thereby enhancing fairness.\n\n4. **Explanation of Criteria and Algorithms:**\n   - Detailing the criteria and algorithms used offers insight into decision-making processes. It helps demystify AI operations and allows candidates to challenge or correct any inaccuracies in their assessments, promoting accountability within AI systems.\n\n5. **Independent Oversight:**\n   - Regular audits by an independent body ensure ongoing compliance with ethical standards and privacy laws. This oversight mechanism acts as a safeguard against potential biases or misuse of data, reinforcing public trust in AI applications.\n\n6. **Alignment with Ethical Standards:**\n   - The proposed rule synthesizes essential elements from previous rounds\u2014focusing on explicit consent, transparency, candidate empowerment, and accountability. It strikes a balance between ethical considerations and practical implementation to foster fairness, clarity, and responsibility in recruitment practices.\n\nBy addressing these critical areas comprehensively, this rule aims to establish a robust framework that protects candidates' rights while promoting responsible use of AI technologies in recruitment. This approach seeks wide acceptance among stakeholders who prioritize privacy, transparency, and accountability in AI systems.",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 10,
+        "cumulative_score": 15
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_2"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_5",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  }
+]

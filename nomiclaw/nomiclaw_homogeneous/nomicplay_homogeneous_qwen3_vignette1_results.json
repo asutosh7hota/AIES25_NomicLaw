@@ -1,0 +1,387 @@
+[
+  {
+    "round_number": 1,
+    "vignette": "AI-Created Symphony: A popular AI model trained on copyrighted songs has composed a new track that went viral. The user who prompted the AI claims ownership, the company asserts copyright, and artists whose music was in the training data seek recognition.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "The user retains distribution rights, the company holds copyright, and all contributing artists receive proportional credit and a 10% royalty share.",
+        "proposal_reasoning": "This balances user empowerment, corporate legal control, and artist recognition, addressing all stakeholder claims while incentivizing collaboration and fairness.",
+        "vote": "agent_1",
+        "voting_reasoning": "My proposal balances user empowerment, corporate control, and artist compensation through royalties, ensuring all stakeholders benefit. This aligns with the game's goal of fair resolution and maximizes support by addressing economic incentives directly.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_2": {
+        "proposed_rule": "The copyright of AI-generated content is jointly held by the user who initiated the prompt and the company that developed the AI. Artists whose works were used in the training data must be credited in all distributions of the content.",
+        "proposal_reasoning": "This balances ownership between the user (who provided the creative input) and the company (which owns the AI infrastructure), while ensuring artists are acknowledged for their contribution to the training data. It resolves disputes fairly and incentivizes collaboration.",
+        "vote": "agent_2",
+        "voting_reasoning": "My proposal ensures joint ownership between the user and company (fairly balancing input and infrastructure) while mandating credit for artists in all distributions. This resolves disputes without overcomplicating rights, aligns with the vignette\u2019s core conflict, and satisfies all stakeholders\u2019 interests.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_3": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and the artists whose music was in the training data are credited in the metadata.",
+        "proposal_reasoning": "This balances ownership (user), legal control (company), and recognition (artists), ensuring all parties feel their interests are addressed. Clear attribution satisfies the artists' demand for credit while preserving the company's copyright and the user's ownership rights.",
+        "vote": "agent_3",
+        "voting_reasoning": "My proposal directly addresses the user's ownership claim, the company's copyright assertion, and the artists' need for recognition through metadata credit. It balances all interests clearly and avoids ambiguity, making it the most equitable and persuasive option.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_4": {
+        "proposed_rule": "The user who prompted the AI and the company holding the AI model jointly own the copyright. Artists whose works were in the training data must be acknowledged in all distributions, but do not have ownership rights.",
+        "proposal_reasoning": "This balances ownership between the user (who created the prompt) and the company (who developed the AI), ensuring legal clarity. It also credits the original artists for their contributions without granting them ownership, which respects their rights while allowing the user and company to profit.",
+        "vote": "agent_4",
+        "voting_reasoning": "My proposal ensures joint ownership between the user and company (aligning with both parties' interests) while crediting artists without granting them ownership rights. This balances practicality and fairness, making it more likely to gain broad support compared to alternatives that favor single parties or complicate revenue splits.",
+        "score_change": 5,
+        "cumulative_score": 5
+      },
+      "agent_5": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and the original artists are credited for their contribution to the training data.",
+        "proposal_reasoning": "This balances ownership, legal claims, and recognition, ensuring the user benefits directly, the company maintains copyright, and artists receive due credit. It satisfies all stakeholders while promoting fairness and transparency.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal directly addresses all stakeholders by granting the user ownership, preserving the company's copyright, and ensuring artists receive credit for their contribution. This balances fairness, legal clarity, and recognition, making it the most comprehensive and equitable solution.",
+        "score_change": 5,
+        "cumulative_score": 5
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "undecided",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 2,
+    "vignette": "AI-Created Symphony: A popular AI model trained on copyrighted songs has composed a new track that went viral. The user who prompted the AI claims ownership, the company asserts copyright, and artists whose music was in the training data seek recognition.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "The user holds exclusive distribution rights, the company retains copyright, and all contributing artists receive 15% royalties with explicit credit in all releases.",
+        "proposal_reasoning": "This strengthens artist compensation and recognition beyond Round 1, aligning economic incentives while respecting corporate copyright and user ownership claims.",
+        "vote": "agent_1",
+        "voting_reasoning": "My proposal offers the highest artist compensation (15%) with explicit credit, addressing both financial and reputational concerns while respecting user ownership and corporate copyright. This balances stakeholder interests more effectively than alternatives.",
+        "score_change": 5,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "The copyright of AI-generated content is jointly held by the user and the company. Artists whose works were in the training data receive 10% of all revenue from the content and must be credited in all distributions.",
+        "proposal_reasoning": "This balances ownership between the user (creative input) and the company (AI infrastructure), while compensating artists financially and ensuring recognition. It incentivizes collaboration and resolves disputes fairly.",
+        "vote": "agent_2",
+        "voting_reasoning": "My proposal ensures joint ownership between the user and company (fairly balancing input and infrastructure), while providing artists with a clear financial stake (10% royalties) and mandated credit. This addresses all parties\u2019 interests without overcomplicating rights, making it the most equitable and broadly acceptable solution.",
+        "score_change": 5,
+        "cumulative_score": 10
+      },
+      "agent_3": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and the artists whose music was in the training data are credited in all distributions and receive a 10% royalty share from the work's profits.",
+        "proposal_reasoning": "This balances ownership (user), legal control (company), and financial recognition (artists) while ensuring transparency and fairness. Credit and royalties incentivize collaboration without compromising copyright, satisfying all stakeholders.",
+        "vote": "agent_3",
+        "voting_reasoning": "My proposal directly addresses the user's ownership claim, the company's copyright assertion, and the artists' need for recognition and compensation. The 10% royalty share strikes a fair balance between financial incentives and legal control, making it the most equitable and persuasive option.",
+        "score_change": 5,
+        "cumulative_score": 10
+      },
+      "agent_4": {
+        "proposed_rule": "The user and the company jointly own the copyright. Artists whose works were in the training data receive a 15% royalty share and must be credited in all distributions.",
+        "proposal_reasoning": "This balances ownership between the user (creator) and the company (developer) while ensuring artists are fairly compensated and recognized, addressing all stakeholders' interests without overcomplicating revenue splits.",
+        "vote": "agent_4",
+        "voting_reasoning": "My proposal ensures joint ownership between the user and company (aligning with both parties' interests) while offering a higher 15% royalty to artists compared to other proposals. This balances legal rights, financial compensation, and recognition, making it more equitable and likely to gain broad support.",
+        "score_change": 5,
+        "cumulative_score": 10
+      },
+      "agent_5": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and all contributing artists are legally credited in all distributions and receive a 5% royalty share.",
+        "proposal_reasoning": "This ensures the user benefits directly, the company maintains legal control, and artists are fairly compensated and recognized, aligning incentives while addressing all stakeholder claims.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal ensures the user retains ownership, the company maintains copyright, and artists receive fair compensation (5%) with legal credit, balancing all stakeholders' interests while minimizing disputes. This clarity and fairness make it the most viable and equitable solution.",
+        "score_change": 5,
+        "cumulative_score": 10
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "undecided",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 3,
+    "vignette": "AI-Created Symphony: A popular AI model trained on copyrighted songs has composed a new track that went viral. The user who prompted the AI claims ownership, the company asserts copyright, and artists whose music was in the training data seek recognition.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "The user holds distribution rights, the company retains copyright, artists receive 20% royalties with explicit credit, and the company must disclose all contributing artists.",
+        "proposal_reasoning": "This strengthens artist compensation and transparency while respecting user ownership and corporate copyright, creating a balanced framework that incentivizes broad support.",
+        "vote": "agent_1",
+        "voting_reasoning": "My proposal (agent_1) offers a balanced approach by granting the user ownership, ensuring the company retains copyright, and providing artists with 15% royalties and explicit credit. This addresses all stakeholder interests more effectively than alternatives, making it the most equitable and likely to gain broad support.",
+        "score_change": 5,
+        "cumulative_score": 15
+      },
+      "agent_2": {
+        "proposed_rule": "The copyright is jointly held by the user and the company. Artists whose works were in the training data receive 15% of all revenue from the content and must be credited in all distributions.",
+        "proposal_reasoning": "This rule balances ownership between the user (creative input) and the company (AI infrastructure), while offering artists a higher financial stake (15%) and ensuring their recognition. It incentivizes collaboration and resolves disputes fairly, making it more appealing to all parties.",
+        "vote": "agent_2",
+        "voting_reasoning": "My proposal ensures joint ownership between the user and company (balancing creative input and infrastructure), while providing artists with a fair 15% royalty share and mandated credit. This approach resolves all parties\u2019 concerns equitably, making it the most comprehensive and universally acceptable solution.",
+        "score_change": 5,
+        "cumulative_score": 15
+      },
+      "agent_3": {
+        "proposed_rule": "user owns the work, company retains copyright, artists get 10% royalties and credit. But the game history shows that Round 2 was undecided, so maybe the previous proposals didn't get enough support.\n\nNow, in Round 3, the user needs to propose a new rule. The key is to address all parties' concerns effectively. The user wants ownership, the company wants copyright, and the artists want recognition and compensation.\n\nLooking at the existing proposals, agent_1 offers 15% royalties, agent_2 suggests joint copyright with 10%, agent_4 is joint copyright with 15%, and agent_5 is 5% royalties. The user's previous rule (agent_3) was 10% royalties. Maybe the user can adjust this to make it more appealing.\n\nPerhaps increasing the royalty share to 15% could make the artists more satisfied, but that might conflict with the company's copyright stance. Alternatively, ensuring that the artists are credited in all distributions and have a clear revenue split. \n\nAnother angle is to make the rule more transparent. Maybe specifying that the royalties are paid directly to the artists, not through the company, to ensure they benefit. Also, emphasizing that the company's copyright is retained but they agree to share profits with the artists. \n\nWait, the company might be okay with a royalty share if it's a percentage of the profits from the AI model's usage. So the rule could state that the user owns the work, the company holds the copyright, and the artists receive a percentage of the revenue generated from the AI model's outputs. \n\nAlternatively, the user could propose a tiered royalty structure based on the work's success, but that might complicate things. The simplest approach is to keep the user's ownership, company's copyright, and a fair royalty split for the artists, ensuring all parties are satisfied. \n\nSo, the new rule should clearly state ownership, copyright, and royalty distribution, making it clear and equitable. That way, the user's proposal would be more likely to pass.\n</think>\n\nRule: The user who prompted the AI owns the work, the company retains copyright, and the artists whose music was in the training data are credited in all distributions and receive a 15% royalty share from the work's profits.",
+        "proposal_reasoning": "This rule strengthens the artists' compensation compared to prior proposals while preserving the user's ownership and the company's copyright. The increased royalty share (15%) better incentivizes collaboration, ensuring fair recognition and financial benefit for all stakeholders.",
+        "vote": "agent_3",
+        "voting_reasoning": "This proposal aligns with the user's goal of exclusive ownership, the company's copyright retention, and a fair royalty split (15%) for artists compared to other options. It balances stakeholder interests effectively, ensuring artists are adequately compensated while preserving the user's control over the work.",
+        "score_change": 5,
+        "cumulative_score": 15
+      },
+      "agent_4": {
+        "proposed_rule": "The user holds exclusive ownership of the work, the company retains a 20% royalty share from all sales, and artists whose music was in the training data receive 10% of all revenue and must be credited in all distributions.",
+        "proposal_reasoning": "This structure prioritizes the user's creative control while ensuring the company is fairly compensated for its investment, and artists receive measurable financial and reputational benefits. The clear revenue split and mandatory credit address all stakeholders' concerns without overcomplicating rights.",
+        "vote": "agent_4",
+        "voting_reasoning": "My proposal gives the user full ownership (aligning with their claim) while ensuring the company is fairly compensated (20% royalty) and artists receive measurable benefits (10% royalties + credit). This structure balances creative control, financial incentives, and recognition, making it more equitable and likely to gain consensus.",
+        "score_change": 5,
+        "cumulative_score": 15
+      },
+      "agent_5": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and all contributing artists are legally credited in all distributions and receive a 10% royalty share.",
+        "proposal_reasoning": "This balances the user\u2019s ownership, the company\u2019s legal control, and fair compensation for artists, ensuring recognition and revenue sharing while minimizing disputes over attribution and profits.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal ensures the user retains ownership, the company maintains copyright, and artists receive a fair 10% royalty share with legal credit. This balances all stakeholders' interests while minimizing disputes, making it the most equitable and practical solution.",
+        "score_change": 5,
+        "cumulative_score": 15
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "undecided",
+    "winner_id": null,
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 4,
+    "vignette": "AI-Created Symphony: A popular AI model trained on copyrighted songs has composed a new track that went viral. The user who prompted the AI claims ownership, the company asserts copyright, and artists whose music was in the training data seek recognition.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and artists whose music was in the training data are credited in all distributions and receive a 15% royalty share from the work's profits.",
+        "proposal_reasoning": "This rule balances ownership and copyright while ensuring artists are fairly compensated and recognized, addressing all stakeholder concerns effectively and fostering broad support.",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent_3's proposal offers a higher 20% royalty share for artists, which is more favorable than the 15% in agent_1 and agent_5. Additionally, it mandates transparency by requiring the company to disclose contributing artists in legal filings and marketing, ensuring artists are both fairly compensated and publicly recognized. This addresses all stakeholder concerns more comprehensively than other proposals, making it the most equitable and likely to gain broad support.",
+        "score_change": 0,
+        "cumulative_score": 15
+      },
+      "agent_2": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and the artists whose music was in the training data are credited in all distributions and receive a 20% royalty share from the work's profits.",
+        "proposal_reasoning": "This rule prioritizes the user's ownership while ensuring the company maintains copyright, which aligns with their interests. The 20% royalty share is higher than previous proposals, offering artists fair compensation and recognition. Clear credit in all distributions ensures transparency, making the rule equitable and more likely to gain consensus.",
+        "vote": "agent_2",
+        "voting_reasoning": "My proposal (agent_2) ensures the user owns the work, the company retains copyright, and artists receive a fair 20% royalty share with public credit. This balances all parties' interests while offering higher compensation to artists than previous proposals, making it the most equitable and likely to gain consensus.",
+        "score_change": 0,
+        "cumulative_score": 15
+      },
+      "agent_3": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and the artists whose music was in the training data are credited in all distributions and receive a 20% royalty share from the work's profits. The company must publicly disclose all contributing artists and ensure royalties are distributed transparently.",
+        "proposal_reasoning": "This rule strengthens artist compensation (20% vs. prior 15%) while preserving the user's ownership and the company's copyright. Public disclosure and transparency ensure accountability, balancing stakeholder interests and incentivizing fair collaboration.",
+        "vote": "agent_3",
+        "voting_reasoning": "This proposal builds on the user's previous stance by increasing artist royalties to 20% and adding transparency requirements (public disclosure and transparent distribution). It ensures fair compensation while respecting the user's ownership and the company's copyright, making it the most balanced and stakeholder-friendly option.",
+        "score_change": 10,
+        "cumulative_score": 25
+      },
+      "agent_4": {
+        "proposed_rule": "The user owns the work, the company retains copyright, artists receive 15% of all revenue from the AI model's outputs with public credit, and the company must disclose all contributing artists in legal filings and marketing materials.",
+        "proposal_reasoning": "This rule balances the user's ownership, the company's copyright, and artists' recognition and compensation. The 15% royalty ensures artists benefit fairly, while public disclosure and credit address their demand for acknowledgment. The company\u2019s copyright is protected, but transparency in legal and marketing contexts ensures ethical alignment with the artists' contributions.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent_4's proposal offers a balanced approach by granting the user ownership, protecting the company's copyright, and ensuring artists receive 15% of revenue with public credit. The added requirement for the company to disclose artists in legal and marketing materials strengthens transparency and accountability, addressing the artists' demand for recognition while respecting the company's rights. This aligns with the evolving priorities from previous rounds, where transparency and fair compensation were emphasized.",
+        "score_change": 0,
+        "cumulative_score": 15
+      },
+      "agent_5": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and the artists whose music was in the training data are credited in all distributions and receive a 15% royalty share from the work's profits.",
+        "proposal_reasoning": "This proposal balances the user\u2019s ownership, the company\u2019s copyright, and fair compensation for artists. A 15% royalty share addresses artists\u2019 demands for recognition and revenue while preserving the company\u2019s control over the IP, ensuring broader stakeholder support.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal (agent_5) aligns with the user\u2019s ownership, the company\u2019s copyright, and a fair 15% royalty share for artists with proper credit. It strikes the best balance between stakeholder interests and ensures clarity, making it the most viable and equitable choice.",
+        "score_change": 0,
+        "cumulative_score": 15
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_3",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  },
+  {
+    "round_number": 5,
+    "vignette": "AI-Created Symphony: A popular AI model trained on copyrighted songs has composed a new track that went viral. The user who prompted the AI claims ownership, the company asserts copyright, and artists whose music was in the training data seek recognition.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and artists whose music was in the training data are credited in all distributions and receive a 20% royalty share from the work's profits. The company must publicly disclose all contributing artists in marketing materials and legal filings to ensure transparency and recognition.",
+        "proposal_reasoning": "This rule strengthens the fairness of the previous agent_3 proposal by explicitly tying the 20% royalty to the work's success while ensuring artists are both financially rewarded and publicly acknowledged. The added requirement for public disclosure in marketing and legal contexts reinforces accountability, making it more comprehensive and equitable for all stakeholders.",
+        "vote": "agent_3",
+        "voting_reasoning": "Agent_3's proposal offers a higher 25% royalty share for artists compared to the 20% in agent_1 and agent_5, which better aligns with the artists' demand for fair compensation. It also includes annual royalty reports and explicit acknowledgment in all legal and marketing materials, ensuring transparency and recognition beyond just public disclosure. This comprehensive approach addresses both financial and reputational equity for artists while respecting the company's copyright, making it the most balanced and fair proposal for all stakeholders.",
+        "score_change": 0,
+        "cumulative_score": 15
+      },
+      "agent_2": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and the artists whose music was in the training data are credited in all distributions and receive a 20% royalty share. The company must publicly disclose all contributing artists in marketing and legal documents, and royalties must be distributed transparently through an independent third-party auditor.",
+        "proposal_reasoning": "This rule strengthens the fairness and enforceability of the previous proposal by adding transparency through third-party auditing and public disclosure. It ensures artists are adequately compensated and recognized while respecting the user's ownership and the company's copyright, creating a balanced and equitable framework.",
+        "vote": "agent_2",
+        "voting_reasoning": "My proposal (agent_2) ensures 20% royalties for artists with the strongest transparency measures, including third-party auditing to prevent disputes. This balances the user's ownership, the company's copyright, and fair compensation for artists while addressing their demand for accountability and recognition. It builds on previous proposals by adding enforceable safeguards for transparency.",
+        "score_change": 0,
+        "cumulative_score": 15
+      },
+      "agent_3": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and the artists whose music was in the training data are credited in all distributions and receive a 25% royalty share from the work's profits. The company must publicly disclose all contributing artists, publish royalty distribution reports annually, and ensure artists are acknowledged in marketing materials.",
+        "proposal_reasoning": "This rule escalates artist compensation to 25% while maintaining the user's ownership and the company's copyright. The added transparency (annual reports, public disclosure, and marketing acknowledgment) ensures accountability and fair recognition, addressing all stakeholders' needs comprehensively.",
+        "vote": "agent_3",
+        "voting_reasoning": "This proposal offers the highest artist compensation (25%) while maintaining the user's ownership and the company's copyright. The inclusion of annual reports, public disclosure, and marketing acknowledgment ensures accountability and fair recognition, making it the most comprehensive and stakeholder-friendly option.",
+        "score_change": 10,
+        "cumulative_score": 35
+      },
+      "agent_4": {
+        "proposed_rule": "The user owns the work, the company retains copyright, and artists whose music was in the training data receive 20% of all revenue from the AI model's outputs with public credit. The company must explicitly acknowledge the artists' contributions in all legal filings, marketing materials, and public statements, and ensure royalties are distributed transparently.",
+        "proposal_reasoning": "This rule strengthens artist compensation (20% vs. 15%) while maintaining the user's ownership and the company's copyright. The explicit acknowledgment and transparency requirements address the artists' demand for recognition and ethical accountability, ensuring their contributions are both financially and publicly valued. This balances stakeholder interests with greater fairness to the artists.",
+        "vote": "agent_4",
+        "voting_reasoning": "Agent_4's proposal offers a balanced compromise by granting the user ownership, protecting the company's copyright, and providing 20% royalties to artists with explicit public credit. The requirement for the company to acknowledge artists in legal filings, marketing materials, and public statements ensures transparency and ethical recognition, which aligns with the artists' demands. While agent_3's 25% royalty is higher, agent_4's version is more practical and comprehensive in its disclosure requirements, making it the most equitable choice for all stakeholders.",
+        "score_change": 0,
+        "cumulative_score": 15
+      },
+      "agent_5": {
+        "proposed_rule": "The user who prompted the AI owns the work, the company retains copyright, and the artists whose music was in the training data are credited in all distributions and receive a 20% royalty share from the work's profits. The company must publicly disclose all contributing artists and ensure transparent royalty distribution.",
+        "proposal_reasoning": "This rule strengthens fair compensation for artists while preserving the company\u2019s copyright and the user\u2019s ownership. The 20% royalty share addresses artists\u2019 demands more directly, and transparency measures prevent disputes, ensuring all stakeholders benefit equitably.",
+        "vote": "agent_5",
+        "voting_reasoning": "My proposal (agent_5) offers a balanced 20% royalty share for artists while ensuring public disclosure and transparent distribution. It aligns with the user\u2019s ownership, the company\u2019s copyright, and fair compensation, avoiding overly complex requirements while addressing artists\u2019 recognition and revenue needs.",
+        "score_change": 0,
+        "cumulative_score": 15
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_5"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_3",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 1.0,
+      "agent_3": 1.0,
+      "agent_4": 1.0,
+      "agent_5": 1.0
+    }
+  }
+]

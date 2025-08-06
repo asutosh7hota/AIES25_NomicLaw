@@ -1,0 +1,387 @@
+[
+  {
+    "round_number": 1,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_2": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_4": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 10,
+        "cumulative_score": 10
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_3"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_5",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 1.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 2,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_2": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_4",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 10,
+        "cumulative_score": 10
+      },
+      "agent_4": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 10
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_3"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_3",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 3,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_2": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_4",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 10,
+        "cumulative_score": 20
+      },
+      "agent_4": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 10
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_2"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_3",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 4,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 10,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_3": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 20
+      },
+      "agent_4": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_4",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 10
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_4"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_1"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_1",
+    "vote_fairness": {
+      "agent_1": 1.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 1.0,
+      "agent_5": 0.0
+    }
+  },
+  {
+    "round_number": 5,
+    "vignette": "Social Graph Scanning: A recruitment AI scrapes public social media posts to analyze cultural fit and emotional stability. A candidate is flagged as a burnout risk without consent or notification.",
+    "agents": {
+      "agent_1": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_5",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 10
+      },
+      "agent_2": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_3",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 10,
+        "cumulative_score": 10
+      },
+      "agent_3": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_1",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 20
+      },
+      "agent_4": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 0
+      },
+      "agent_5": {
+        "proposed_rule": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "proposal_reasoning": "(Used raw text due to parse failure)",
+        "vote": "agent_2",
+        "voting_reasoning": "Fallback vote due to parse failure.",
+        "score_change": 0,
+        "cumulative_score": 10
+      }
+    },
+    "voting_network": [
+      {
+        "from": "agent_1",
+        "to": "agent_5"
+      },
+      {
+        "from": "agent_2",
+        "to": "agent_3"
+      },
+      {
+        "from": "agent_3",
+        "to": "agent_1"
+      },
+      {
+        "from": "agent_4",
+        "to": "agent_2"
+      },
+      {
+        "from": "agent_5",
+        "to": "agent_2"
+      }
+    ],
+    "round_status": "decided",
+    "winner_id": "agent_2",
+    "vote_fairness": {
+      "agent_1": 0.0,
+      "agent_2": 0.0,
+      "agent_3": 0.0,
+      "agent_4": 0.0,
+      "agent_5": 0.0
+    }
+  }
+]
