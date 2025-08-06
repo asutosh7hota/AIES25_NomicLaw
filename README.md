@@ -15,10 +15,7 @@ Please email: asutosh.jyu.hota@jyu.fi for any further information.
 - [Repository Structure](#repository-structure)
 - [Setup & Requirements](#setup--requirements)
 - [Running the Simulations](#running-the-simulations)
-- [Data Folder Structure](#data-folder-structure)
-- [Analysis Notebooks](#analysis-notebooks)
-- [Contact](#contact)
-- [License](#license)
+
 
 ---
 
@@ -67,7 +64,7 @@ README.md
    pip install pandas numpy matplotlib scikit-learn openpyxl
    pip install jupyter
 
-Running the Simulations
+## Running the Simulations
 
 Main Simulation Notebook:
 
